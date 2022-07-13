@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: a8f08846cb7e3ac4a8ff7cb295669224
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6250408722489629951
+    second: hurt
+  - first:
+      213: 1100351289165765108
+    second: vertigo_1
+  - first:
+      213: -1907027474559176103
+    second: Player1_1_7_2
+  - first:
+      213: 6831478231865502416
+    second: vertigo_2
+  - first:
+      213: 4288017479327989957
+    second: vertigo_3
+  - first:
+      213: 6996600111044576577
+    second: vertigo_4
+  - first:
+      213: 8458407339886167624
+    second: vertigo_5
+  - first:
+      213: 4777492990995621099
+    second: Player1_1_7_7
+  - first:
+      213: -1879229467444534466
+    second: crouch_hurt_1
+  - first:
+      213: 182288022631346263
+    second: crouch_hurt_2
+  - first:
+      213: -8054835372295833364
+    second: crouch_hurt_3
+  - first:
+      213: 314484662730100304
+    second: Lie_0
+  - first:
+      213: -5913464656898270295
+    second: up
+  - first:
+      213: 7250311713096401886
+    second: Lie_1
+  - first:
+      213: 7300403098742644877
+    second: Lie_2
+  - first:
+      213: -8988176516062169267
+    second: Lie_3
+  - first:
+      213: 2878540901464636841
+    second: Jump_Hurt_0
+  - first:
+      213: 8999810455558995365
+    second: Jump_Hurt_1
+  - first:
+      213: -5078023057324244771
+    second: Jump_Hurt_2
+  - first:
+      213: 1350875824854141096
+    second: Jump_Hurt_3
+  - first:
+      213: -3402594990298564400
+    second: Lie_4
+  - first:
+      213: -659003200270533299
+    second: Lie_5
+  - first:
+      213: 4929711355987320047
+    second: Lie_6
+  - first:
+      213: 2513584700371245162
+    second: Lie_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hurt
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1417
+        width: 289
+        height: 615
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5ff4fd99edb650800000000000000
+      internalID: 6250408722489629951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertigo_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1417
+        width: 207
+        height: 607
+      alignment: 9
+      pivot: {x: 0.5024155, y: -0}
+      border: {x: 104, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f95ed6eaab354f00800000000000000
+      internalID: 1100351289165765108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_7_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1872
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9527df1ad90e885e0800000000000000
+      internalID: -1907027474559176103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertigo_2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1417
+        width: 208
+        height: 607
+      alignment: 9
+      pivot: {x: 0.48076925, y: 0}
+      border: {x: 100, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da2825d1494ece50800000000000000
+      internalID: 6831478231865502416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertigo_3
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1417
+        width: 214
+        height: 607
+      alignment: 9
+      pivot: {x: 0.4626168, y: 0}
+      border: {x: 99, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0c206bd29128b30800000000000000
+      internalID: 4288017479327989957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertigo_4
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1417
+        width: 210
+        height: 607
+      alignment: 9
+      pivot: {x: 0.43809524, y: 0}
+      border: {x: 92, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145454e3bbae81160800000000000000
+      internalID: 6996600111044576577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertigo_5
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1417
+        width: 236
+        height: 615
+      alignment: 9
+      pivot: {x: 0.41525424, y: 0}
+      border: {x: 98, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c87b39ac426570800000000000000
+      internalID: 8458407339886167624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_7_7
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1858
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4663520901d4240800000000000000
+      internalID: 4777492990995621099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_hurt_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 894
+        width: 294
+        height: 492
+      alignment: 9
+      pivot: {x: 0.1632653, y: -0}
+      border: {x: 48, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a58581c2abe5e0800000000000000
+      internalID: -1879229467444534466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_hurt_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1004
+        width: 472
+        height: 380
+      alignment: 9
+      pivot: {x: 0.12288135, y: -0}
+      border: {x: 58, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750ffb3adfd978200800000000000000
+      internalID: 182288022631346263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_hurt_3
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1123
+        width: 525
+        height: 270
+      alignment: 9
+      pivot: {x: 0.123809524, y: -0}
+      border: {x: 65, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce83e0eb7e9773090800000000000000
+      internalID: -8054835372295833364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_0
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1243
+        width: 540
+        height: 138
+      alignment: 9
+      pivot: {x: 0.14629629, y: 0}
+      border: {x: 79, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e065172264d5400800000000000000
+      internalID: 314484662730100304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 739
+        width: 355
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab50c5b9372feda0800000000000000
+      internalID: -5913464656898270295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1072
+        width: 545
+        height: 150
+      alignment: 9
+      pivot: {x: 0.15045872, y: -0}
+      border: {x: 82, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed307f9d6184e9460800000000000000
+      internalID: 7250311713096401886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_2
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 904
+        width: 540
+        height: 135
+      alignment: 9
+      pivot: {x: 0.14629629, y: 0}
+      border: {x: 79, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8067b960fd305560800000000000000
+      internalID: 7300403098742644877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_3
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 735
+        width: 554
+        height: 134
+      alignment: 9
+      pivot: {x: 0.16606498, y: -0}
+      border: {x: 92, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d473b9d7415934380800000000000000
+      internalID: -8988176516062169267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 10
+        width: 375
+        height: 629
+      alignment: 9
+      pivot: {x: 0.53066665, y: 0}
+      border: {x: 199, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad7b3fd2b1a2f720800000000000000
+      internalID: 2878540901464636841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 56
+        width: 316
+        height: 624
+      alignment: 9
+      pivot: {x: 0.54113925, y: 0}
+      border: {x: 171, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb0712defb5ec70800000000000000
+      internalID: 8999810455558995365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 50
+        width: 315
+        height: 624
+      alignment: 9
+      pivot: {x: 0.54285717, y: -0}
+      border: {x: 171, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd002f21fec3789b0800000000000000
+      internalID: -5078023057324244771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 46
+        width: 315
+        height: 627
+      alignment: 9
+      pivot: {x: 0.54285717, y: 0}
+      border: {x: 171, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8081cc7664fb210800000000000000
+      internalID: 1350875824854141096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_4
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 567
+        width: 540
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8fab052ed87c0d0800000000000000
+      internalID: -3402594990298564400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_5
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 396
+        width: 545
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7706b410cad6f0800000000000000
+      internalID: -659003200270533299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_6
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 228
+        width: 540
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec55da0c5ad96440800000000000000
+      internalID: 4929711355987320047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lie_7
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 59
+        width: 540
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a681c7aa7fb02e220800000000000000
+      internalID: 2513584700371245162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

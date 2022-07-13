@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 88ed53a50358f8049ad25597f08cb2b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1038426460474959665
+    second: shoot_idle_0
+  - first:
+      213: -268848108185285439
+    second: shoot_idle_1
+  - first:
+      213: -6950323464694051873
+    second: shoot_idle_2
+  - first:
+      213: -3777716102623405226
+    second: shoot_idle_3
+  - first:
+      213: -8370070184377040290
+    second: shoot_idle_4
+  - first:
+      213: 5588147493334910544
+    second: shoot_idle_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoot_idle_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 66
+        width: 267
+        height: 525
+      alignment: 9
+      pivot: {x: 0.23836748, y: 0.92702824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e9fd2d5b396e00800000000000000
+      internalID: 1038426460474959665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_idle_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 68
+        width: 267
+        height: 523
+      alignment: 9
+      pivot: {x: 0.23817313, y: 0.92625004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc841de11cd44cf0800000000000000
+      internalID: -268848108185285439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_idle_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 68
+        width: 267
+        height: 522
+      alignment: 9
+      pivot: {x: 0.23801859, y: 0.9262474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb49dc12ad7b8f90800000000000000
+      internalID: -6950323464694051873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_idle_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 68
+        width: 267
+        height: 521
+      alignment: 9
+      pivot: {x: 0.23764072, y: 0.9260952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bdbd8483bd29bc0800000000000000
+      internalID: -3777716102623405226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 68
+        width: 265
+        height: 522
+      alignment: 9
+      pivot: {x: 0.23152362, y: 0.9263922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e524e1b838987db80800000000000000
+      internalID: -8370070184377040290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 68
+        width: 264
+        height: 522
+      alignment: 9
+      pivot: {x: 0.22871768, y: 0.9263715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05687b4b9861d8d40800000000000000
+      internalID: 5588147493334910544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

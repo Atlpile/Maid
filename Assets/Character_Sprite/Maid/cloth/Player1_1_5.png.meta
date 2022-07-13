@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: f52e71b78eb55c24b962a5cac7a1dbe2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 368567252661595347
+    second: Jump_Attack_0
+  - first:
+      213: 7317792850762829227
+    second: Jump_Attack_1
+  - first:
+      213: -6472958979949571690
+    second: Jump_Attack_2
+  - first:
+      213: 6563685587370758932
+    second: Jump_Attack_3
+  - first:
+      213: 3871285200040061054
+    second: Fall_Attack_0
+  - first:
+      213: 1312791092174670603
+    second: Fall_Attack_1
+  - first:
+      213: -4617677596425779230
+    second: Fall_Attack_2
+  - first:
+      213: 2029638837337299557
+    second: Fall_Attack_3
+  - first:
+      213: -1994250881965461601
+    second: Fall_Attack_5
+  - first:
+      213: -430946824037711557
+    second: Fall_Attack_4
+  - first:
+      213: -5350740817878758158
+    second: Player1_1_5_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jump_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1370
+        width: 362
+        height: 657
+      alignment: 9
+      pivot: {x: 0.40331492, y: 0.0608828}
+      border: {x: 146, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc6cbaa6f96d1500800000000000000
+      internalID: 368567252661595347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1423
+        width: 419
+        height: 605
+      alignment: 9
+      pivot: {x: 0.4916468, y: -0.021487603}
+      border: {x: 206, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad8c9193d50e8560800000000000000
+      internalID: 7317792850762829227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1502
+        width: 413
+        height: 526
+      alignment: 9
+      pivot: {x: 0.4794189, y: -0.17490494}
+      border: {x: 198, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6915e6a5a1e6b26a0800000000000000
+      internalID: -6472958979949571690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1616
+        width: 356
+        height: 412
+      alignment: 9
+      pivot: {x: 0.40449437, y: -0.5}
+      border: {x: 144, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d59c0445e61b50800000000000000
+      internalID: 6563685587370758932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 893
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.3942857, y: -0.37111112}
+      border: {x: 138, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e786d94e06199b530800000000000000
+      internalID: 3871285200040061054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 842
+        width: 365
+        height: 502
+      alignment: 9
+      pivot: {x: 0.41917807, y: -0.2310757}
+      border: {x: 153, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b4e59fa88f73210800000000000000
+      internalID: 1312791092174670603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 790
+        width: 389
+        height: 556
+      alignment: 9
+      pivot: {x: 0.45244217, y: -0.11510792}
+      border: {x: 176, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e703c901b6baefb0800000000000000
+      internalID: -4617677596425779230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 729
+        width: 405
+        height: 617
+      alignment: 9
+      pivot: {x: 0.4740741, y: -0.004862237}
+      border: {x: 192, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a93d1e4c9ba2c10800000000000000
+      internalID: 2029638837337299557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 31
+        width: 427
+        height: 630
+      alignment: 9
+      pivot: {x: 0.50117093, y: 0.022222223}
+      border: {x: 214, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f607b836ff254e0800000000000000
+      internalID: -1994250881965461601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 31
+        width: 427
+        height: 634
+      alignment: 9
+      pivot: {x: 0.50351286, y: 0.02208202}
+      border: {x: 215, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3146249528f40af0800000000000000
+      internalID: -430946824037711557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_5_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 45
+        width: 1723
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc472953995eb5b0800000000000000
+      internalID: -5350740817878758158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

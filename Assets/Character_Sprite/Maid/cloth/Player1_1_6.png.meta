@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: acc519b9e86e8e64abd152b8c5ebea21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6667563197311382147
+    second: dash_1
+  - first:
+      213: 7415203491319144081
+    second: dash_4
+  - first:
+      213: -2643999225035392702
+    second: dash_5
+  - first:
+      213: -643943795733835233
+    second: Player1_1_6_3
+  - first:
+      213: 7125827139291351490
+    second: Maid_hurt1
+  - first:
+      213: 219960535708205813
+    second: Maid_hurt2
+  - first:
+      213: -1127965749731181492
+    second: Maid_hurt3
+  - first:
+      213: -2722991087640048959
+    second: dash_attack_1
+  - first:
+      213: -2378448380384164124
+    second: dash_attack_4
+  - first:
+      213: 7076501975097473211
+    second: dash_attack_5
+  - first:
+      213: -4956880499863903808
+    second: Player1_1_6_10
+  - first:
+      213: -7294961575479860215
+    second: Player1_1_6_11
+  - first:
+      213: -4946155000503115242
+    second: Player1_1_6_12
+  - first:
+      213: -9138665884073387738
+    second: dash_2
+  - first:
+      213: 164587893640372944
+    second: dash_3
+  - first:
+      213: -4771128600112184308
+    second: Player1_1_6_15
+  - first:
+      213: 3048227743206643488
+    second: Player1_1_6_16
+  - first:
+      213: 2129043422008333369
+    second: dash_attack_2
+  - first:
+      213: 8643726733859515781
+    second: dash_attack_3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dash_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1467
+        width: 371
+        height: 499
+      alignment: 9
+      pivot: {x: 0.65768194, y: -0}
+      border: {x: 244, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d89ca299e0873a0800000000000000
+      internalID: -6667563197311382147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1451
+        width: 266
+        height: 566
+      alignment: 9
+      pivot: {x: 0.46616542, y: -0}
+      border: {x: 124, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e5055b94818e660800000000000000
+      internalID: 7415203491319144081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_5
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1448
+        width: 203
+        height: 585
+      alignment: 9
+      pivot: {x: 0.5862069, y: -0}
+      border: {x: 119, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2497b5d96b0ae4bd0800000000000000
+      internalID: -2643999225035392702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maid_hurt1
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1470
+        width: 270
+        height: 542
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.016605167}
+      border: {x: 120, y: 9, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c98c48670604e260800000000000000
+      internalID: 7125827139291351490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maid_hurt2
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1433
+        width: 281
+        height: 580
+      alignment: 9
+      pivot: {x: 0.42704627, y: -0}
+      border: {x: 120, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f20e7b11f47d0300800000000000000
+      internalID: 219960535708205813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maid_hurt3
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1430
+        width: 252
+        height: 605
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0}
+      border: {x: 65, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c37787029a850f0800000000000000
+      internalID: -1127965749731181492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_attack_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 859
+        width: 452
+        height: 499
+      alignment: 9
+      pivot: {x: 0.5376106, y: 0}
+      border: {x: 243, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca09a6680ef53ad0800000000000000
+      internalID: -2722991087640048959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_attack_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 843
+        width: 342
+        height: 566
+      alignment: 9
+      pivot: {x: 0.36549708, y: -0}
+      border: {x: 125, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e64992bccd0efed0800000000000000
+      internalID: -2378448380384164124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_attack_5
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 840
+        width: 340
+        height: 585
+      alignment: 9
+      pivot: {x: 0.35588235, y: -0}
+      border: {x: 121, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8f80ead09c43260800000000000000
+      internalID: 7076501975097473211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_6_10
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 785
+        width: 180
+        height: 610
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c12d83b27f953bb0800000000000000
+      internalID: -4956880499863903808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_6_11
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 785
+        width: 177
+        height: 609
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9042663f81713ca90800000000000000
+      internalID: -7294961575479860215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_6_12
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 785
+        width: 176
+        height: 609
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126dfe9b3abb5bb0800000000000000
+      internalID: -4946155000503115242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 470
+        width: 537
+        height: 340
+      alignment: 9
+      pivot: {x: 0.76536316, y: -0}
+      border: {x: 411, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62913d21ccfec2180800000000000000
+      internalID: -9138665884073387738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_3
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 470
+        width: 537
+        height: 338
+      alignment: 9
+      pivot: {x: 0.76536316, y: -0}
+      border: {x: 411, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a3c631dbb84200800000000000000
+      internalID: 164587893640372944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_6_15
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 146
+        width: 174
+        height: 609
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c044b9411db89cdb0800000000000000
+      internalID: -4771128600112184308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_6_16
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 146
+        width: 174
+        height: 608
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02792547bfa7d4a20800000000000000
+      internalID: 3048227743206643488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_attack_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 94
+        width: 606
+        height: 339
+      alignment: 9
+      pivot: {x: 0.6782178, y: -0}
+      border: {x: 411, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934503056b1eb8d10800000000000000
+      internalID: 2129043422008333369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_attack_3
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 93
+        width: 607
+        height: 337
+      alignment: 9
+      pivot: {x: 0.67874795, y: 0}
+      border: {x: 412, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d6e330bafa4f770800000000000000
+      internalID: 8643726733859515781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_6_3
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1430
+        width: 868
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12d7ff87804017f0800000000000000
+      internalID: -643943795733835233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

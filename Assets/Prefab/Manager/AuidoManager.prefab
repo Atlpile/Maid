@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2568677473145202240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2568677473145202241}
+  - component: {fileID: 2568677473145202242}
+  m_Layer: 0
+  m_Name: AuidoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2568677473145202241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2568677473145202240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4686496, y: -0.09923288, z: -6.2152796}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2568677473145202242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2568677473145202240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd3b01368cf221e408a0d4021ec3eaf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGMClip: {fileID: 8300000, guid: bd405300ec42df642866556ac4276541, type: 3}
+  addLimitClip: {fileID: 8300000, guid: 68acdf770dce8b043b180606955b5b70, type: 3}
+  drinkClip: {fileID: 8300000, guid: 01758b29357b9124787bf4539ae4f208, type: 3}
+  jumpClip: {fileID: 8300000, guid: 516ecb08b27433343b9f391c49e99fc4, type: 3}
+  groundClip: {fileID: 0}
+  walkClip: {fileID: 8300000, guid: 44af35ebb7bffdd43a90ea55eac13204, type: 3}
+  hurtClip: {fileID: 8300000, guid: f76dc3f1c52630e42840c92ab5d5f67d, type: 3}
+  fireClip: {fileID: 8300000, guid: 449225bcf3b09cd44b1f375be7e0dfff, type: 3}
+  dashClip: {fileID: 8300000, guid: 30a1715d130c83241bd989c09c14b7c2, type: 3}
+  getCoinClip: {fileID: 8300000, guid: f4806b65a50206344a258bbba97e8f69, type: 3}
+  enemyAttackClip: {fileID: 8300000, guid: 61760517d8ae5de4ebd8e5cbfbb6343b, type: 3}
+  enemyHurtClip: {fileID: 8300000, guid: 5be70f7c82bd9c542ae21c667a245855, type: 3}
+  enemyDeathClip_1: {fileID: 8300000, guid: 34958d7075b24ef49af8c263fe1871e7, type: 3}
+  BGMGroup: {fileID: -9105824771807326404, guid: 3068704448bc4c2409c77d030ef08a0a, type: 2}

@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: f80a82552015c974590bdf21f8da985c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2732926005085284974
+    second: run_attack_7
+  - first:
+      213: 50148111967368092
+    second: run_attack_8
+  - first:
+      213: 5321867582695368977
+    second: crouch_start_1
+  - first:
+      213: -7357957146164781059
+    second: crouch_attack_start_1
+  - first:
+      213: 4867181233787040212
+    second: crouch_start_2
+  - first:
+      213: -196258401219951807
+    second: crouch_attack_start_2
+  - first:
+      213: -7516536310778443348
+    second: crouch_Start_3
+  - first:
+      213: 1860635256165384766
+    second: crouch_attack_start_3
+  - first:
+      213: -7148548222258785928
+    second: crouch_attack_stay_1
+  - first:
+      213: 9021036489363534874
+    second: crouch_stay_1
+  - first:
+      213: 5646848203357587498
+    second: crouch_stay_2
+  - first:
+      213: -7227527180575350255
+    second: crouch_exit_1
+  - first:
+      213: -8078462079427253133
+    second: crouch_exit_2
+  - first:
+      213: 8578988035586210929
+    second: crouch_attack_exit_1
+  - first:
+      213: 4550226938764295358
+    second: crouch_stay_3
+  - first:
+      213: 6850809559297670186
+    second: crouch_attack_stay_2
+  - first:
+      213: -4120071229466043754
+    second: crouch_attack_exit_2
+  - first:
+      213: 1082028530930807690
+    second: Player1_1_3_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run_attack_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1434
+        width: 475
+        height: 590
+      alignment: 9
+      pivot: {x: 0.5410526, y: 0}
+      border: {x: 257, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a2982d8bd4de520800000000000000
+      internalID: 2732926005085284974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_attack_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1411
+        width: 470
+        height: 608
+      alignment: 9
+      pivot: {x: 0.53829783, y: 0}
+      border: {x: 253, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93b8ff217922b000800000000000000
+      internalID: 50148111967368092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_start_1
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1411
+        width: 189
+        height: 603
+      alignment: 9
+      pivot: {x: 0.60317457, y: -0.016583748}
+      border: {x: 114, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1196938be521bd940800000000000000
+      internalID: 5321867582695368977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_start_1
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1411
+        width: 331
+        height: 603
+      alignment: 9
+      pivot: {x: 0.34743202, y: 0}
+      border: {x: 115, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff1d4ea5f843e990800000000000000
+      internalID: -7357957146164781059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_start_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 782
+        width: 285
+        height: 565
+      alignment: 9
+      pivot: {x: 0.6140351, y: -0.017699115}
+      border: {x: 175, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1f2517b83bb8340800000000000000
+      internalID: 4867181233787040212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_start_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 783
+        width: 385
+        height: 565
+      alignment: 9
+      pivot: {x: 0.45454544, y: 0}
+      border: {x: 175, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143491f1600c64df0800000000000000
+      internalID: -196258401219951807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_Start_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 783
+        width: 312
+        height: 480
+      alignment: 9
+      pivot: {x: 0.55128205, y: -0.020833334}
+      border: {x: 172, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9c9b6bc06efa790800000000000000
+      internalID: -7516536310778443348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_start_3
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 783
+        width: 379
+        height: 480
+      alignment: 9
+      pivot: {x: 0.45118734, y: -0}
+      border: {x: 171, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e324e4c48ed42d910800000000000000
+      internalID: 1860635256165384766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_stay_1
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1029
+        width: 358
+        height: 349
+      alignment: 9
+      pivot: {x: 0.4217877, y: -0.08595989}
+      border: {x: 151, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871d38834414bcc90800000000000000
+      internalID: -7148548222258785928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_stay_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 400
+        width: 285
+        height: 351
+      alignment: 9
+      pivot: {x: 0.5508772, y: -0.08547009}
+      border: {x: 156, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14b95e34e8213d70800000000000000
+      internalID: 9021036489363534874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_stay_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 400
+        width: 280
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5607143, y: -0.084745765}
+      border: {x: 157, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a288eadc582ad5e40800000000000000
+      internalID: 5646848203357587498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_exit_1
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 266
+        width: 273
+        height: 482
+      alignment: 9
+      pivot: {x: 0.64468867, y: -0.020746889}
+      border: {x: 176, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126355825aa2bb90800000000000000
+      internalID: -7227527180575350255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_exit_2
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 266
+        width: 272
+        height: 478
+      alignment: 9
+      pivot: {x: 0.6433824, y: -0.020920502}
+      border: {x: 175, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c66405a8983ef80800000000000000
+      internalID: -8078462079427253133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_exit_1
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 515
+        width: 383
+        height: 482
+      alignment: 9
+      pivot: {x: 0.45953003, y: -0}
+      border: {x: 176, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c31793a20be0770800000000000000
+      internalID: 8578988035586210929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_stay_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 280
+        height: 356
+      alignment: 9
+      pivot: {x: 0.56785715, y: -0.084269665}
+      border: {x: 159, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc757cea47a52f30800000000000000
+      internalID: 4550226938764295358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_stay_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 17
+        width: 346
+        height: 354
+      alignment: 9
+      pivot: {x: 0.45375723, y: -0.084745765}
+      border: {x: 157, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cb9cd3ff6f21f50800000000000000
+      internalID: 6850809559297670186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crouch_attack_exit_2
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 0
+        width: 383
+        height: 477
+      alignment: 9
+      pivot: {x: 0.45691907, y: 0}
+      border: {x: 175, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a9e5ebb0192d6c0800000000000000
+      internalID: -4120071229466043754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_3_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 85
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83f7fe4733240f00800000000000000
+      internalID: 1082028530930807690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
