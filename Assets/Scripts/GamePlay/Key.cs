@@ -56,16 +56,16 @@ public class Key : MonoBehaviour
         switch (keyType)
         {
             case E_KeyType.RedKey:
-                GameManager.Instance.keys.hasRedKey = true;
+                GameManager.Instance.hasRedKey = true;
                 break;
             case E_KeyType.GreenKey:
-                GameManager.Instance.keys.hasGreenKey = true;
+                GameManager.Instance.hasGreenKey = true;
                 break;
             case E_KeyType.BlueKey:
-                GameManager.Instance.keys.hasBlueKey = true;
+                GameManager.Instance.hasBlueKey = true;
                 break;
             case E_KeyType.YellowKey:
-                GameManager.Instance.keys.hasYellowKey = true;
+                GameManager.Instance.hasYellowKey = true;
                 break;
         }
     }

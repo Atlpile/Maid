@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286751027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.42, z: 0}
+  m_LocalPosition: {x: 0, y: 4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3578117430883963156}
@@ -104,6 +104,9 @@ GameObject:
   - component: {fileID: 3578117430883963178}
   - component: {fileID: 3578117430883963157}
   - component: {fileID: 3578117430883963152}
+  - component: {fileID: 909520857}
+  - component: {fileID: 1477247203}
+  - component: {fileID: 3394142130250178789}
   m_Layer: 8
   m_Name: Maid
   m_TagString: Player
@@ -271,30 +274,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19a34012c602e8f4b95d6bf4c59463e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maidStats: {fileID: 0}
+  maidCheck: {fileID: 0}
+  maidDash: {fileID: 0}
+  rb: {fileID: 0}
+  coll: {fileID: 0}
   anim: {fileID: 0}
   currentSpeed: 0
+  horizontalMove: 0
   jumpForce: 25
   jumpCount: 0
-  dashSpeed: 50
-  dashTime: 0.3
-  dashMagic: 5
-  dashCoolDown: 0.5
-  rayHeight: 0
-  rayLength: 2.5
-  platformXRayPosition_Left: -0.38
-  platformXRayPosition_Right: 0.38
-  rayXPositionLeft: -0.38
-  rayXPositionRight: 0.38
-  groundCheck: {fileID: 3578117432869175990}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 1088
-  platformLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  checkRadius: 0.5
   jumpPressed: 0
-  crouchPressed: 0
   crouchHeld: 0
   isGround: 0
   isPlatform: 0
@@ -323,6 +313,62 @@ MonoBehaviour:
   attackData: {fileID: 0}
   hitterVelocityX: 15
   hitterVelocityY: 10
+--- !u!114 &909520857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578117430883963153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb81898259c9d064ea0912aaa95ac430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1477247203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578117430883963153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a7f094b04e65c4791c0d9a8f44edb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundCheck: {fileID: 3578117432869175990}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1088
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  checkRadius: 0.5
+  rayHeight: 0
+  rayLength: 2.5
+  platformXRayPosition_Left: -0.38
+  platformXRayPosition_Right: 0.38
+  rayXPositionLeft: -0.38
+  rayXPositionRight: 0.38
+--- !u!114 &3394142130250178789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578117430883963153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18143b9e0cdc154a90c91a34a3b667a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashLossMagic: 10
+  dashSpeed: 50
+  dashTime: 0.3
+  dashCoolDown: 0.5
+  dashTimeLeft: 0
+  lastDash: -10
 --- !u!1 &3578117432071067803
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +414,7 @@ GameObject:
   m_Layer: 0
   m_Name: Ground Check
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -380,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3578117432869175985}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.175, y: 0.079, z: 0}
+  m_LocalPosition: {x: -0.175, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3578117430883963156}
@@ -534,7 +580,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7748344, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -597,7 +643,7 @@ GameObject:
   - component: {fileID: 7075616673166255179}
   - component: {fileID: 7075616673166255178}
   m_Layer: 0
-  m_Name: Maid Fire
+  m_Name: Maid Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

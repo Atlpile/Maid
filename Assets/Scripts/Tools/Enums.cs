@@ -1,9 +1,10 @@
 
-public enum SoundName
+public enum E_SoundName
 {
+    None,
     Run, Jump, Fire, Dash, Hurt,
     AddLimit, GetCoin, Drink,
-    BGM
+    BGM1, BGM2
 }
 
 

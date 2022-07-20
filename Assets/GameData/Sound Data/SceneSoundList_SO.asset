@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SceneSoundList_SO
   m_EditorClassIdentifier: 
   sceneSoundList:
-  - sceneName: 
+  - sceneName: Level_02
     ambient: 0
-    music: 0
+    music: 9

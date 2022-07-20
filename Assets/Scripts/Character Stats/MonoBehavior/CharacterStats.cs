@@ -5,10 +5,10 @@ using UnityEngine;
 public class CharacterStats : MonoBehaviour
 {
     [Header("角色数据")]
-    public CharacterData_SO templateCharacterData;   //角色模板数据
-    public CharacterData_SO characterData;
-    public AttackData_SO templateAttackData;
-    public AttackData_SO attackData;
+    public CharacterData_SO templateCharacterData;      //角色模板数据
+    public CharacterData_SO characterData;              //角色数据
+    public AttackData_SO templateAttackData;            //攻击模板数据
+    public AttackData_SO attackData;                    //攻击数据
 
     [Header("受伤效果")]
     public int hitterVelocityX = 5;

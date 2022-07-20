@@ -5,33 +5,27 @@ using UnityEngine.UI;
 
 public class User_UI : Singleton<User_UI>
 {
+    [Header("UI面板")]
     public GameObject pauseMenu;
     public GameObject gameOverUI;
 
-    private Button pauseButton;
-    private Button resumeButton;
-    private Button exitButton;
-    private Button yesButton;
-    private Button noButton;
+    [Header("按钮")]
+    [SerializeField] private Button pauseButton;
+    [SerializeField] private Button resumeButton;
+    [SerializeField] private Button exitButton;
+    [SerializeField] private Button yesButton;
+    [SerializeField] private Button noButton;
 
 
     protected override void Awake()
     {
         base.Awake();
 
-        pauseButton = transform.GetChild(0).GetChild(0).GetComponent<Button>();
-        resumeButton = transform.GetChild(1).GetChild(3).GetComponent<Button>();
-        exitButton = transform.GetChild(1).GetChild(4).GetComponent<Button>();
-        yesButton = transform.GetChild(2).GetChild(2).GetComponent<Button>();
-        noButton = transform.GetChild(2).GetChild(3).GetComponent<Button>();
-
         pauseButton.onClick.AddListener(PauseGame);
         resumeButton.onClick.AddListener(ResumeGame);
         exitButton.onClick.AddListener(LoadMainMenu);
         yesButton.onClick.AddListener(LoadSavePoint);
         noButton.onClick.AddListener(LoadMainMenu);
-
-        DontDestroyOnLoad(this);
     }
 
     public void PauseGame()
@@ -46,7 +40,6 @@ public class User_UI : Singleton<User_UI>
         pauseMenu.SetActive(false);
 
         Time.timeScale = 1;
-
     }
 
     public void LoadMainMenu()

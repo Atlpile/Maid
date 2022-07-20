@@ -5,13 +5,19 @@ using UnityEngine.Audio;
 
 public class AudioManager : Singleton<AudioManager>
 {
+    #region 音源和音效
+
+    [Header("音效控制")]
+    public AudioMixerGroup BGMGroup;
+
     [Header("BGM")]
     public AudioClip BGMClip;
+
     //TODO:环境音效
+
     [Header("物品音效")]
     public AudioClip addLimitClip;
     public AudioClip drinkClip;
-
 
     [Header("Player音效")]
     public AudioClip jumpClip;
@@ -39,15 +45,15 @@ public class AudioManager : Singleton<AudioManager>
     private AudioSource dashSource;
     private AudioSource fireSource;
     private AudioSource coinSource;
+
     //背景音乐音源
     private AudioSource BGMSource;
+
     //Enemy音源
     private AudioSource enemySource;
     private AudioSource enemyAttackSource;
 
-
-    [Header("音效控制")]
-    public AudioMixerGroup BGMGroup;
+    #endregion
 
     protected override void Awake()
     {
@@ -92,6 +98,7 @@ public class AudioManager : Singleton<AudioManager>
     }
 
     #region Player音效
+
     public void PlayerWalkAudio()
     {
         playerSource.clip = walkClip;
@@ -112,7 +119,10 @@ public class AudioManager : Singleton<AudioManager>
         dashSource.clip = dashClip;
         dashSource.Play();
     }
+
     #endregion
+
+    #region Enemy音效
 
     public void EnemyAttackAudio()
     {
@@ -131,7 +141,10 @@ public class AudioManager : Singleton<AudioManager>
         enemySource.Play();
     }
 
-    //Item音效
+    #endregion
+
+    #region Item音效
+
     public void GetCoinAudio()
     {
         coinSource.clip = getCoinClip;
@@ -149,4 +162,6 @@ public class AudioManager : Singleton<AudioManager>
         drinkSource.clip = drinkClip;
         drinkSource.Play();
     }
+
+    #endregion
 }

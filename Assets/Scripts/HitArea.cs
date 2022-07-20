@@ -10,7 +10,6 @@ public class HitArea : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
             var targetStats = other.GetComponent<CharacterStats>();
             var characterStats = GetComponentInParent<CharacterStats>();
 

@@ -123,13 +123,13 @@ public class Box : MonoBehaviour
 
     private void CanOpenBox()               //判断能否开启特定箱子
     {
-        if (GameManager.Instance.keys.hasRedKey && boxType == E_BoxType.Red)
+        if (GameManager.Instance.hasRedKey && boxType == E_BoxType.Red)
             canOpen = true;
-        else if (GameManager.Instance.keys.hasGreenKey && boxType == E_BoxType.Green)
+        else if (GameManager.Instance.hasGreenKey && boxType == E_BoxType.Green)
             canOpen = true;
-        else if (GameManager.Instance.keys.hasBlueKey && boxType == E_BoxType.Blue)
+        else if (GameManager.Instance.hasBlueKey && boxType == E_BoxType.Blue)
             canOpen = true;
-        else if (GameManager.Instance.keys.hasYellowKey && boxType == E_BoxType.Yellow)
+        else if (GameManager.Instance.hasYellowKey && boxType == E_BoxType.Yellow)
             canOpen = true;
         else if (boxType == E_BoxType.Normal)
             canOpen = true;

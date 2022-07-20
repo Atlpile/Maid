@@ -4,61 +4,61 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4839504788471101806
-    second: BG_1_2048_0
+    second: m_Ground_1
   - first:
       213: -6584156733233529449
-    second: BG_1_2048_1
+    second: m_Ground_2
   - first:
       213: -4076628293547319505
-    second: BG_1_2048_2
+    second: m_Ground_3
   - first:
       213: -8425590126268487450
-    second: BG_1_2048_3
+    second: m_Ground_4
   - first:
       213: -2450407081602330322
-    second: BG_1_2048_4
+    second: m_Ground_5
   - first:
       213: 1186794941165458985
-    second: BG_1_2048_5
+    second: m_Ground_6
   - first:
       213: -9149162948978648840
-    second: BG_1_2048_6
+    second: m_Ground_7
   - first:
       213: -4459251657525426717
-    second: BG_1_2048_7
+    second: m_Ground_8
   - first:
       213: 5235030954632284
-    second: BG_1_2048_8
+    second: m_Ground_9
   - first:
       213: -233659583842810053
-    second: BG_1_2048_9
+    second: m_Door
   - first:
       213: 8197461231858428552
     second: m_BackGround
   - first:
       213: -7426377765039084893
-    second: BG_1_2048_11
+    second: m_Wall
   - first:
       213: -7730594776069540086
-    second: BG_1_2048_12
+    second: m_Spike_1
   - first:
       213: 2969367910577739586
-    second: BG_1_2048_13
+    second: m_Spike_2
   - first:
       213: 4153863475819637817
-    second: BG_1_2048_14
+    second: m_Spike_3
   - first:
       213: -6403130313642671194
-    second: BG_1_2048_15
+    second: m_Light
   - first:
       213: 6832935481085280809
-    second: BG_1_2048_16
+    second: m_Platform_1
   - first:
       213: 3958228017103412203
-    second: BG_1_2048_17
+    second: m_Platform_2
   - first:
       213: -1680778868796134638
-    second: BG_1_2048_18
+    second: m_Platform_3
   - first:
       213: -1495056703249120765
     second: BG_1_2048_19
@@ -118,7 +118,7 @@ TextureImporter:
     second: BG_1_2048_37
   - first:
       213: 850903155762214599
-    second: BG_1_2048_38
+    second: m_Platform_4
   - first:
       213: -6444161476104340543
     second: BG_1_2048_39
@@ -217,13 +217,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_1_2048_0
+      name: m_Ground_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1960
+        y: 1999
         width: 301
-        height: 88
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,13 +238,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_1
+      name: m_Ground_2
       rect:
         serializedVersion: 2
         x: 313
-        y: 1960
+        y: 2001
         width: 322
-        height: 88
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,13 +259,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_2
+      name: m_Ground_3
       rect:
         serializedVersion: 2
         x: 647
-        y: 1960
+        y: 1999
         width: 313
-        height: 88
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,13 +280,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_3
+      name: m_Ground_4
       rect:
         serializedVersion: 2
         x: 972
-        y: 1960
+        y: 2000
         width: 319
-        height: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,13 +301,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_4
+      name: m_Ground_5
       rect:
         serializedVersion: 2
         x: 1303
-        y: 1960
+        y: 2001
         width: 217
-        height: 88
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,13 +322,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_5
+      name: m_Ground_6
       rect:
         serializedVersion: 2
         x: 1532
-        y: 1960
+        y: 2001
         width: 217
-        height: 88
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,13 +343,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_6
+      name: m_Ground_7
       rect:
         serializedVersion: 2
         x: 1762
-        y: 1960
+        y: 1999
         width: 49
-        height: 88
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,13 +364,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_7
+      name: m_Ground_8
       rect:
         serializedVersion: 2
         x: 1823
-        y: 1960
+        y: 1999
         width: 49
-        height: 88
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,13 +385,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_8
+      name: m_Ground_9
       rect:
         serializedVersion: 2
         x: 1884
-        y: 1960
+        y: 1999
         width: 49
-        height: 88
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,12 +406,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_9
+      name: m_Door
       rect:
         serializedVersion: 2
         x: 1980
         y: 1747
-        width: 58
+        width: 42
         height: 301
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -448,7 +448,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_11
+      name: m_Wall
       rect:
         serializedVersion: 2
         x: 1317
@@ -469,7 +469,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_12
+      name: m_Spike_1
       rect:
         serializedVersion: 2
         x: 1689
@@ -490,11 +490,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_13
+      name: m_Spike_2
       rect:
         serializedVersion: 2
         x: 1764
-        y: 1735
+        y: 1736
         width: 67
         height: 208
       alignment: 0
@@ -511,7 +511,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_14
+      name: m_Spike_3
       rect:
         serializedVersion: 2
         x: 1839
@@ -532,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_15
+      name: m_Light
       rect:
         serializedVersion: 2
         x: 1690
@@ -553,13 +553,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_16
+      name: m_Platform_1
       rect:
         serializedVersion: 2
         x: 1892
-        y: 1539
+        y: 1577
         width: 156
-        height: 122
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,13 +574,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_17
+      name: m_Platform_2
       rect:
         serializedVersion: 2
         x: 1338
-        y: 1440
+        y: 1475
         width: 709
-        height: 82
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,13 +595,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_18
+      name: m_Platform_3
       rect:
         serializedVersion: 2
         x: 1334
-        y: 1286
+        y: 1324
         width: 714
-        height: 142
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,321 +658,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_21
-      rect:
-        serializedVersion: 2
-        x: 1807
-        y: 1260
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 606c3cbebdf38be40800000000000000
-      internalID: 5672353944459003398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_22
-      rect:
-        serializedVersion: 2
-        x: 1573
-        y: 1065
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29029889c05a33690800000000000000
-      internalID: -7623568270690803566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_23
-      rect:
-        serializedVersion: 2
-        x: 1575
-        y: 1049
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef4e10b92d81af2e0800000000000000
-      internalID: -2091331784137382658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_24
-      rect:
-        serializedVersion: 2
-        x: 2036
-        y: 1047
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5cb1f7002134fd540800000000000000
-      internalID: 5034816653020306373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_25
-      rect:
-        serializedVersion: 2
-        x: 1574
-        y: 1038
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edb6395a30f835950800000000000000
-      internalID: 6436645538268146654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_26
-      rect:
-        serializedVersion: 2
-        x: 1571
-        y: 1022
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fa33014a1a14add0800000000000000
-      internalID: -2475825195084727564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_27
-      rect:
-        serializedVersion: 2
-        x: 1575
-        y: 1014
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe5b44dd5d4adcc50800000000000000
-      internalID: 6687182260162311663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_28
-      rect:
-        serializedVersion: 2
-        x: 2037
-        y: 1008
-        width: 6
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66346378562fec0c0800000000000000
-      internalID: -4553435655350893722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_29
-      rect:
-        serializedVersion: 2
-        x: 1758
-        y: 798
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b50b2963b7b8801a0800000000000000
-      internalID: -6843066272476647333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_30
-      rect:
-        serializedVersion: 2
-        x: 1781
-        y: 795
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64351dbf551de6f10800000000000000
-      internalID: 2264977829841163078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_31
-      rect:
-        serializedVersion: 2
-        x: 1793
-        y: 795
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71922ea30aededed0800000000000000
-      internalID: -2387225972695750377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_32
-      rect:
-        serializedVersion: 2
-        x: 1802
-        y: 796
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 643dd5236eace10b0800000000000000
-      internalID: -5755940183696616634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_33
-      rect:
-        serializedVersion: 2
-        x: 1813
-        y: 795
-        width: 11
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fca24a875e7d2130800000000000000
-      internalID: 3543627396257328374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_34
-      rect:
-        serializedVersion: 2
-        x: 1826
-        y: 795
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b1e729dc09644f00800000000000000
-      internalID: 1100119712889037239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1_2048_35
-      rect:
-        serializedVersion: 2
-        x: 1836
-        y: 795
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88f104ec2e19d1fe0800000000000000
-      internalID: -1216655921011220600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BG_1_2048_36
       rect:
         serializedVersion: 2
@@ -1015,13 +700,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_1_2048_38
+      name: m_Platform_4
       rect:
         serializedVersion: 2
         x: 1762
-        y: 703
+        y: 737
         width: 285
-        height: 82
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

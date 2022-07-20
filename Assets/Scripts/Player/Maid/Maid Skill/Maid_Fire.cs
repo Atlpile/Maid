@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Maid_Fire : MonoBehaviour
 {
-    //TODO:中蓄力攻击       public GameObject middleBullet;
-    //TODO:大蓄力攻击       public GameObject largeBullet;
+    //TODO:中蓄力攻击      
+    //TODO:大蓄力攻击 
 
     public GameObject smallBullet;
     public Vector3 crouchAttackPosition;
@@ -24,19 +24,13 @@ public class Maid_Fire : MonoBehaviour
         if (maid.isHurt)
             return;
 
-        //若Player蓝量>10，则可以攻击
+        //若Player蓝量>5，则可以攻击
         if (GameManager.Instance.maidStats.CurrentMagic > 5)
         {
-            //TODO:Player通过打小怪回蓝（如小怪掉落蓝瓶）
-
             if (Input.GetButtonDown("Fire") && !maid.isCrouch)
-            {
                 Player_StandFire();
-            }
             else if (Input.GetButtonDown("Fire") && maid.isCrouch)
-            {
                 Player_CrouchFire();
-            }
         }
     }
 

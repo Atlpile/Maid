@@ -6,13 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
+    [Header("Reference")]
     [HideInInspector] public CharacterStats maidStats;
-    [HideInInspector] public CharacterStats smallBulletStats;
     [HideInInspector] public PlayerController_Maid maidController;
-    [HideInInspector] public HasKey keys;
+
+    [Header("监视是否持有相应的Key")]
+    public bool hasRedKey = false;
+    public bool hasGreenKey = false;
+    public bool hasBlueKey = false;
+    public bool hasYellowKey = false;
 
     private bool isGameOver;
-    private Coin coins;
 
     [HideInInspector] public float gameTime;
 
@@ -23,17 +27,15 @@ public class GameManager : Singleton<GameManager>
         DontDestroyOnLoad(this);
     }
 
-    // private void Start()
-    // {
-    //     StartCoroutine(maidStats.ResumeMagic());
-    // }
+
 
     private void Update()
     {
         if (maidController != null)
+        {
             isGameOver = maidController.isDead;
-
-        User_UI.Instance.GameOverUI(isGameOver);
+            User_UI.Instance.GameOverUI(isGameOver);
+        }
 
         // if (isGameOver)
         //     return;
@@ -72,22 +74,6 @@ public class GameManager : Singleton<GameManager>
     {
         maidController = maid;
     }
-
-    public void RegisterSmallBullet(CharacterStats smallBullet)
-    {
-        smallBulletStats = smallBullet;
-    }
-
-    public void RegisterCoin(Coin coin)
-    {
-        coins = coin;
-    }
-
-    public void RegisterKey(HasKey key)
-    {
-        keys = key;
-    }
-
 
     #endregion
 

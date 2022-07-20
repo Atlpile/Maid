@@ -5,22 +5,16 @@ using UnityEngine.UI;
 
 public class PlayerData_UI : MonoBehaviour
 {
-    private Image healthSlider;
-    private Text healthNumber;
+    [Header("血量状态")]
+    [SerializeField] private Image healthSlider;
+    [SerializeField] private Text healthNumber;
 
-    private Image magicSlider;
-    private Text magicNumber;
+    [Header("蓝量状态")]
+    [SerializeField] private Image magicSlider;
+    [SerializeField] private Text magicNumber;
 
-    private void Awake()
-    {
-        healthSlider = transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>();
-        healthNumber = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<Text>();
 
-        magicSlider = transform.GetChild(1).GetChild(0).GetChild(0).GetComponent<Image>();
-        magicNumber = transform.GetChild(1).GetChild(0).GetChild(1).GetComponent<Text>();
-    }
-
-    private void Update()
+    private void FixedUpdate()
     {
         UpdateHealth();
         UpdateMagic();
