@@ -11,7 +11,7 @@ public class Spike : MonoBehaviour
         spikeStats = GetComponent<CharacterStats>();
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         //FIXME：Player在Trap的2/5和4/5处受伤两次
         if (other.CompareTag("Player"))

@@ -55,13 +55,13 @@ TextureImporter:
     second: UI_Item_1024_16
   - first:
       213: 17396701287236176
-    second: UI_Item_1024_17
+    second: m_coin_1
   - first:
       213: -7588499174762834259
-    second: UI_Item_1024_18
+    second: m_coin_4
   - first:
       213: 2127022480241086461
-    second: UI_Item_1024_19
+    second: m_coin_3
   - first:
       213: 3683422802958593799
     second: UI_Item_1024_20
@@ -175,28 +175,28 @@ TextureImporter:
     second: UI_Item_1024_56
   - first:
       213: -2803876303996815151
-    second: UI_Item_1024_57
+    second: Item_Speed
   - first:
       213: -1787439225627637813
-    second: UI_Item_1024_58
+    second: Item_Jump
   - first:
       213: -5557162621357241920
     second: UI_Item_1024_59
   - first:
       213: 5827636283563307802
-    second: UI_Item_1024_60
+    second: Item_Defence
   - first:
       213: 278883982398533863
-    second: UI_Item_1024_61
+    second: Item_Pet
   - first:
       213: -4681306599254919121
     second: UI_Item_1024_62
   - first:
       213: -8092296433665955652
-    second: UI_Item_1024_63
+    second: Item_Bullet
   - first:
       213: 3217069759663018504
-    second: UI_Item_1024_64
+    second: Item_Invincible
   - first:
       213: -8627500883657797473
     second: UI_Item_1024_65
@@ -244,7 +244,7 @@ TextureImporter:
     second: m_LockRed
   - first:
       213: -1181763885288698726
-    second: Coin_2
+    second: m_coin_2
   - first:
       213: 6324385453442603537
     second: Coin_1
@@ -697,12 +697,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_17
+      name: m_coin_1
       rect:
         serializedVersion: 2
-        x: 656
+        x: 646
         y: 838
-        width: 5
+        width: 25
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -718,12 +718,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_18
+      name: m_coin_4
       rect:
         serializedVersion: 2
-        x: 680
+        x: 740
         y: 838
-        width: 20
+        width: 25
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -739,7 +739,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_19
+      name: m_coin_3
       rect:
         serializedVersion: 2
         x: 708
@@ -755,27 +755,6 @@ TextureImporter:
       bones: []
       spriteID: dff4a042da3b48d10800000000000000
       internalID: 2127022480241086461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Item_1024_20
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 838
-        width: 20
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70fabef06852e1330800000000000000
-      internalID: 3683422802958593799
       vertices: []
       indices: 
       edges: []
@@ -1537,7 +1516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_57
+      name: Item_Speed
       rect:
         serializedVersion: 2
         x: 7
@@ -1558,7 +1537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_58
+      name: Item_Jump
       rect:
         serializedVersion: 2
         x: 110
@@ -1600,7 +1579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_60
+      name: Item_Defence
       rect:
         serializedVersion: 2
         x: 325
@@ -1621,7 +1600,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_61
+      name: Item_Pet
       rect:
         serializedVersion: 2
         x: 432
@@ -1663,7 +1642,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_63
+      name: Item_Bullet
       rect:
         serializedVersion: 2
         x: 521
@@ -1684,7 +1663,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Item_1024_64
+      name: Item_Invincible
       rect:
         serializedVersion: 2
         x: 617
@@ -2015,6 +1994,27 @@ TextureImporter:
       bones: []
       spriteID: b4b8010fe4c2498f0800000000000000
       internalID: -534753738203559093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_coin_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 838
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4bf0f108899fe0800000000000000
+      internalID: -1181763885288698726
       vertices: []
       indices: 
       edges: []

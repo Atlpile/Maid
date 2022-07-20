@@ -77,8 +77,6 @@ public class PlayerController_Maid : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
-
-
     }
 
     void Start()
@@ -87,7 +85,7 @@ public class PlayerController_Maid : MonoBehaviour
         GameManager.Instance.RegisterPlayer(maidStats);
         GameManager.Instance.RegisterPlayer(this);
 
-        //读取Player数据
+        //加载场景时获取Player保存的位置
         SaveManager.Instance.LoadPlayerPositionData("PlayerPoX", "PlayerPoY");
 
         currentSpeed = maidStats.PlayerCurrentSpeed;
@@ -107,7 +105,7 @@ public class PlayerController_Maid : MonoBehaviour
         if (isDead)
         {
             //【Bug修复】防止Player移动时，在死亡状态下滑行
-            rb.velocity = new Vector2(0, 0);
+            rb.velocity = new Vector2(0, rb.velocity.y);
             maidStats.CurrentHealth = 0;
             return;
         }
@@ -212,13 +210,8 @@ public class PlayerController_Maid : MonoBehaviour
             StandUp();
         else if (isCrouch && !isGround)                     //处于下蹲状态，不处于地面状态
             StandUp();
-
-        // if (isCrouch)
-        //     currentSpeed = crouchSpeed;
-        // else
-        //     currentSpeed = moveSpeed;
     }
-    public void Crouch()
+    private void Crouch()
     {
         isCrouch = true;
         rb.velocity = new Vector2(0, rb.velocity.y);
@@ -226,11 +219,10 @@ public class PlayerController_Maid : MonoBehaviour
         coll.size = colliderCrouchSize;
         coll.offset = colliderCrouchOffset;
     }
-    public void StandUp()
+    private void StandUp()
     {
         isCrouch = false;
         currentSpeed = maidStats.PlayerOriginSpeed;
-        // rb.bodyType = RigidbodyType2D.Dynamic;
 
         coll.size = colliderStandSize;
         coll.offset = colliderStandOffset;
@@ -239,7 +231,7 @@ public class PlayerController_Maid : MonoBehaviour
     #endregion
 
     #region Player拓展功能
-    void ReadyToDash()
+    private void ReadyToDash()
     {
         isDashing = true;                                                               //开启冲刺状态
 
@@ -249,7 +241,7 @@ public class PlayerController_Maid : MonoBehaviour
 
         // cdImage.fillAmount = 1;                                                         //cd冷却图标还原
     }
-    void Dash()
+    private void Dash()
     {
         if (isDashing)
         {

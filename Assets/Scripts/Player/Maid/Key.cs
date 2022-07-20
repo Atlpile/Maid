@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class Key : MonoBehaviour
 {
     public E_KeyType keyType;
     public Sprite[] keySprites;
 
     private SpriteRenderer keySpriteRenderer;
+
 
     private void Awake()
     {
@@ -16,10 +19,20 @@ public class Key : MonoBehaviour
 
     private void Start()
     {
-        KeyType();
+        GetKeyTypeSprite();
     }
 
-    private void KeyType()
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            GetKeyType();
+
+            Destroy(gameObject);
+        }
+    }
+
+    private void GetKeyTypeSprite()
     {
         switch (keyType)
         {
@@ -38,29 +51,22 @@ public class Key : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void GetKeyType()
     {
-        if (other.CompareTag("Player"))
+        switch (keyType)
         {
-            switch (keyType)
-            {
-                case E_KeyType.RedKey:
-                    GameManager.Instance.keys.hasRedKey = true;
-                    break;
-                case E_KeyType.GreenKey:
-                    GameManager.Instance.keys.hasGreenKey = true;
-                    break;
-                case E_KeyType.BlueKey:
-                    GameManager.Instance.keys.hasBlueKey = true;
-                    break;
-                case E_KeyType.YellowKey:
-                    GameManager.Instance.keys.hasYellowKey = true;
-                    break;
-            }
-
-            Destroy(gameObject);
+            case E_KeyType.RedKey:
+                GameManager.Instance.keys.hasRedKey = true;
+                break;
+            case E_KeyType.GreenKey:
+                GameManager.Instance.keys.hasGreenKey = true;
+                break;
+            case E_KeyType.BlueKey:
+                GameManager.Instance.keys.hasBlueKey = true;
+                break;
+            case E_KeyType.YellowKey:
+                GameManager.Instance.keys.hasYellowKey = true;
+                break;
         }
     }
-
-    //传keyType参数
 }

@@ -9,6 +9,8 @@ TagManager:
   - Ground
   - Platform
   - Trap
+  - Coin
+  - CoinBag
   layers:
   - Default
   - TransparentFX

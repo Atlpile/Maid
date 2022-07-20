@@ -23,22 +23,20 @@ public class GameManager : Singleton<GameManager>
         DontDestroyOnLoad(this);
     }
 
+    // private void Start()
+    // {
+    //     StartCoroutine(maidStats.ResumeMagic());
+    // }
+
     private void Update()
     {
-        // if (Input.GetKeyDown(KeyCode.Escape))
-        //     UIManager.Instance.PauseGame();
-
-
         if (maidController != null)
             isGameOver = maidController.isDead;
 
         User_UI.Instance.GameOverUI(isGameOver);
 
-        // userUI.GameOverUI(isGameOver);
-
         // if (isGameOver)
         //     return;
-
 
     }
 
@@ -51,6 +49,17 @@ public class GameManager : Singleton<GameManager>
         maidStats.ResumeMagic(gameTime);
         // Debug.Log(gameTime);
     }
+
+
+    //按设置的时间来更新游戏时间
+    // private IEnumerator UpdateTime(float time)
+    // {
+    //     while (true)
+    //     {
+    //         yield return new WaitForSeconds(time);
+    //         gameTime = gameTime + time;
+    //     }
+    // }
 
 
     #region 注册

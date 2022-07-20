@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class HasKey : MonoBehaviour
 {
-    public bool hasRedKey;
-    public bool hasGreenKey;
-    public bool hasBlueKey;
-    public bool hasYellowKey;
+    public bool hasRedKey = false;
+    public bool hasGreenKey = false;
+    public bool hasBlueKey = false;
+    public bool hasYellowKey = false;
 
     private void Start()
     {

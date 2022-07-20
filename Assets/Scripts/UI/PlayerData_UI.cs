@@ -5,9 +5,6 @@ using UnityEngine.UI;
 
 public class PlayerData_UI : MonoBehaviour
 {
-    //TODO:显示玩家等级
-    //TODO:显示玩家经验值
-
     private Image healthSlider;
     private Text healthNumber;
 

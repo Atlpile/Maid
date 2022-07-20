@@ -130,23 +130,34 @@ public class CharacterStats : MonoBehaviour
 
     }
 
-    //Player攻击消耗蓝量的数值计算
+    /// <summary>
+    /// Player攻击消耗蓝量的数值计算
+    /// </summary>
+    /// <param name="playerMagic">Player蓝量</param>
+    /// <param name="bulletMagicDamage">攻击消耗的蓝量</param>
     public void TakeMagic(CharacterStats playerMagic, CharacterStats bulletMagicDamage)
     {
-        //蓝量数值计算
         CurrentMagic = Mathf.Max(CurrentMagic - bulletMagicDamage.attackData.magicDamage, 0);
     }
 
-    //PlayerDash消耗蓝量的数值计算
+    /// <summary>
+    /// PlayerDash消耗蓝量的数值计算
+    /// </summary>
+    /// <param name="playerMagic">Player蓝量</param>
+    /// <param name="dashMagicDamage">Dash消耗的蓝量</param>
     public void TakeMagic(CharacterStats playerMagic, int dashMagicDamage)
     {
         CurrentMagic = Mathf.Max(CurrentMagic - dashMagicDamage, 0);
     }
 
-    //Player通过传入的时间参数回蓝
+    /// <summary>
+    /// Player通过传入的时间参数回蓝
+    /// </summary>
+    /// <param name="time"></param>
     public void ResumeMagic(float time)
     {
-        //Player 0.5秒回1滴蓝
+        // Player 0.5秒回1滴蓝
+
         if (time > 0.5f)
         {
             if (CurrentMagic < MaxMagic)
@@ -155,11 +166,9 @@ public class CharacterStats : MonoBehaviour
                 GameManager.Instance.gameTime = 0;
             }
         }
+
     }
 
-    //TODO:Player升级经验数值
-
     #endregion
-
 
 }
