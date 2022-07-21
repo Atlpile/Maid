@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: f98a16a3b4e38fb48a0257a4c03d9f8c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8364011077043498014
+    second: Mon16_idle_1
+  - first:
+      213: 7620182880829017120
+    second: Mon16_idle_2
+  - first:
+      213: -1703113579488836776
+    second: Mon16_idle_3
+  - first:
+      213: -4530766489371331215
+    second: Mon_16_1_2048_3
+  - first:
+      213: -483255406788315193
+    second: Mon16_idle_4
+  - first:
+      213: 3149544034199343251
+    second: Mon16_idle_5
+  - first:
+      213: 5927109784507873175
+    second: Mon16_idle_6
+  - first:
+      213: -2674911407768954083
+    second: Mon16_bullet_1
+  - first:
+      213: 5616859435729832663
+    second: Mon16_bullet_2
+  - first:
+      213: -5503498491895524701
+    second: Mon16_bullet_3
+  - first:
+      213: 7302337785822430980
+    second: Mon16_bullet_4
+  - first:
+      213: 2710814812844664321
+    second: Mon_16_1_2048_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon16_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1254
+        width: 573
+        height: 793
+      alignment: 9
+      pivot: {x: 0.4886562, y: -0}
+      border: {x: 280, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3d3676d301deb80800000000000000
+      internalID: -8364011077043498014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_idle_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1255
+        width: 573
+        height: 791
+      alignment: 9
+      pivot: {x: 0.4851658, y: 0}
+      border: {x: 278, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c8357e4f350c960800000000000000
+      internalID: 7620182880829017120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1255
+        width: 573
+        height: 789
+      alignment: 9
+      pivot: {x: 0.4886562, y: 0}
+      border: {x: 280, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8538c6219335d58e0800000000000000
+      internalID: -1703113579488836776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_16_1_2048_3
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1986
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17537c802eb7f11c0800000000000000
+      internalID: -4530766489371331215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 450
+        width: 573
+        height: 786
+      alignment: 9
+      pivot: {x: 0.4851658, y: -0}
+      border: {x: 278, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7789694c12b49f0800000000000000
+      internalID: -483255406788315193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_idle_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 451
+        width: 573
+        height: 788
+      alignment: 9
+      pivot: {x: 0.4886562, y: -0}
+      border: {x: 280, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39017e2bc9d65bb20800000000000000
+      internalID: 3149544034199343251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 439
+        width: 629
+        height: 798
+      alignment: 9
+      pivot: {x: 0.48171702, y: 0}
+      border: {x: 303, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797755222f2514250800000000000000
+      internalID: 5927109784507873175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_bullet_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 175
+        width: 254
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b9a463f3ec0ead0800000000000000
+      internalID: -2674911407768954083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_bullet_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 175
+        width: 251
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da4afbb5e713fd40800000000000000
+      internalID: 5616859435729832663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_bullet_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 175
+        width: 251
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a25ba8c745af93b0800000000000000
+      internalID: -5503498491895524701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_bullet_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 175
+        width: 174
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407cbd9d68d175560800000000000000
+      internalID: 7302337785822430980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_16_1_2048_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 175
+        width: 1060
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1062973b5bfbe9520800000000000000
+      internalID: 2710814812844664321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

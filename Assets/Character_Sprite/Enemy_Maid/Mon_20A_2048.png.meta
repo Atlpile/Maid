@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 9dd290b42c491114b87d482dd8f8f2f7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3115297258921291289
+    second: Mon20_idle_1
+  - first:
+      213: -214217793528148055
+    second: Mon20_idle_2
+  - first:
+      213: 7972435186581389450
+    second: Mon20_attack_2
+  - first:
+      213: -8604640551587736242
+    second: Mon20_idle_3
+  - first:
+      213: -5953744366730240634
+    second: Mon20_idle_4
+  - first:
+      213: 6249862318786719661
+    second: Mon20_idle_5
+  - first:
+      213: 8010424571747231090
+    second: Mon20_idle_6
+  - first:
+      213: -2438626186675022893
+    second: Mon_20A_2048_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon20_idle_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1455
+        width: 759
+        height: 587
+      alignment: 9
+      pivot: {x: 0.75494075, y: 0}
+      border: {x: 573, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e60c7f952cb3b20800000000000000
+      internalID: 3115297258921291289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon20_idle_2
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1455
+        width: 759
+        height: 585
+      alignment: 9
+      pivot: {x: 0.7602108, y: 0}
+      border: {x: 577, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afcf204d02f60df0800000000000000
+      internalID: -214217793528148055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon20_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1127
+        width: 486
+        height: 921
+      alignment: 9
+      pivot: {x: 0.5164609, y: 0}
+      border: {x: 251, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80420bff87c3ae60800000000000000
+      internalID: 7972435186581389450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon20_idle_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 854
+        width: 756
+        height: 582
+      alignment: 9
+      pivot: {x: 0.75396824, y: 0}
+      border: {x: 570, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4511b6f10d269880800000000000000
+      internalID: -8604640551587736242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon20_idle_4
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 854
+        width: 761
+        height: 581
+      alignment: 9
+      pivot: {x: 0.7595269, y: -0}
+      border: {x: 578, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d9f81fa0d006da0800000000000000
+      internalID: -5953744366730240634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon20_idle_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 251
+        width: 757
+        height: 585
+      alignment: 9
+      pivot: {x: 0.75429326, y: -0}
+      border: {x: 571, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafa16e6aa8fbb650800000000000000
+      internalID: 6249862318786719661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon20_idle_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 251
+        width: 754
+        height: 581
+      alignment: 9
+      pivot: {x: 0.75994694, y: 0}
+      border: {x: 573, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275ed0bf4beba2f60800000000000000
+      internalID: 8010424571747231090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_20A_2048_7
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 257
+        width: 759
+        height: 1791
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d315435762482ed0800000000000000
+      internalID: -2438626186675022893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

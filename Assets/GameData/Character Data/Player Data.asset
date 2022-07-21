@@ -18,6 +18,6 @@ MonoBehaviour:
   currentMagic: 100
   maxDefence: 0
   currentDefence: 0
-  playerOriginSpeed: 10
-  playerCurrentSpeed: 10
+  originSpeed: 10
+  currentSpeed: 10
   playerJumpCount: 1

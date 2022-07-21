@@ -36,13 +36,13 @@ public class ColdTimeItem : MonoBehaviour
     public void AddSpeed()
     {
         //Player在冷却时间内提升增幅效果
-        GameManager.Instance.maidStats.PlayerCurrentSpeed += addSpeed;
+        GameManager.Instance.maidStats.CurrentSpeed += addSpeed;
     }
     public void ResumeSpeed()
     {
-        var originSpeed = GameManager.Instance.maidStats.PlayerOriginSpeed;
+        var originSpeed = GameManager.Instance.maidStats.OriginSpeed;
 
-        GameManager.Instance.maidStats.PlayerCurrentSpeed = originSpeed;
+        GameManager.Instance.maidStats.CurrentSpeed = originSpeed;
     }
 
     private void AddJumpCount()

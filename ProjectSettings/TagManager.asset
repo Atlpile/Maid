@@ -11,6 +11,8 @@ TagManager:
   - Trap
   - Coin
   - CoinBag
+  - Ground Check
+  - Block Check
   layers:
   - Default
   - TransparentFX

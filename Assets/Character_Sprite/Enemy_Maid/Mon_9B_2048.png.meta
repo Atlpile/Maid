@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: eca87abfcce03d14dbab2a41f7a74fd4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3706255188487467198
+    second: Mon_9B_2048_0
+  - first:
+      213: -1546231403107667005
+    second: Mon_9B_2048_1
+  - first:
+      213: 7581529339563574301
+    second: Mon_9B_2048_2
+  - first:
+      213: 1652755512432146333
+    second: Mon_9B_2048_3
+  - first:
+      213: 2013612313136397926
+    second: Mon_9B_2048_4
+  - first:
+      213: -5902656121767150520
+    second: Mon_9B_2048_5
+  - first:
+      213: -5161989544645936896
+    second: Mon_9B_2048_6
+  - first:
+      213: -8702060202779013759
+    second: Mon_9B_2048_7
+  - first:
+      213: -3135759069206575557
+    second: Mon_9B_2048_8
+  - first:
+      213: -8304747641914569465
+    second: Mon_9B_2048_9
+  - first:
+      213: 5787726327904922880
+    second: Mon_9B_2048_10
+  - first:
+      213: -4843866164447488245
+    second: Mon_9B_2048_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon_9B_2048_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1427
+        width: 721
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f814bea8cb09cc0800000000000000
+      internalID: -3706255188487467198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_1
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1554
+        width: 610
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3b63d2bbeaa8ae0800000000000000
+      internalID: -1546231403107667005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_2
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1577
+        width: 596
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1483e204c0073960800000000000000
+      internalID: 7581529339563574301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 844
+        width: 668
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d973613c164cfe610800000000000000
+      internalID: 1652755512432146333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 971
+        width: 669
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ef8dfeab9c1fb10800000000000000
+      internalID: 2013612313136397926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_5
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1123
+        width: 602
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cb8c6e78d851ea0800000000000000
+      internalID: -5902656121767150520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 678
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0093919cbddec58b0800000000000000
+      internalID: -5161989544645936896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 143
+        width: 756
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d0b4fd9521c3780800000000000000
+      internalID: -8702060202779013759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 338
+        width: 660
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b368bb29dbb8b74d0800000000000000
+      internalID: -3135759069206575557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_9
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 593
+        width: 381
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d4b66250c9fbc80800000000000000
+      internalID: -8304747641914569465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 494
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de2f73e62225050800000000000000
+      internalID: 5787726327904922880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_9B_2048_11
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 334
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d298236127ccb0800000000000000
+      internalID: -4843866164447488245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

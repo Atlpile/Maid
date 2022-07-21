@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: bca8f7a03f0d629448d24a50c0420a64
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7653419050031226207
+    second: Mon_13A_2048_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +44,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +78,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon13_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 709
+        width: 312
+        height: 312
+      alignment: 9
+      pivot: {x: 0.6698718, y: -0}
+      border: {x: 209, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1673c2b551e929d0800000000000000
+      internalID: -2798457935246428642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_idle_2
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 707
+        width: 311
+        height: 309
+      alignment: 9
+      pivot: {x: 0.67202574, y: -0}
+      border: {x: 209, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc475c3ec93e25f0800000000000000
+      internalID: -779622127550116668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_attack_1
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 345
+        width: 329
+        height: 336
+      alignment: 9
+      pivot: {x: 0.6656535, y: 0}
+      border: {x: 219, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12042a39056ae1570800000000000000
+      internalID: 8439365616743366689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_run_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 326
+        height: 324
+      alignment: 9
+      pivot: {x: 0.6411043, y: -0}
+      border: {x: 209, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e75a99c4862d80800000000000000
+      internalID: -8275781263833962896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_run_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 373
+        height: 324
+      alignment: 9
+      pivot: {x: 0.57372653, y: -0}
+      border: {x: 214, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc27cab874dcfb0800000000000000
+      internalID: -4625962577020400448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_run_3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 0
+        width: 330
+        height: 324
+      alignment: 9
+      pivot: {x: 0.6242424, y: -0}
+      border: {x: 206, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9b8b0c338f4ada0800000000000000
+      internalID: -5934345507807118870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_run_4
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 0
+        width: 298
+        height: 324
+      alignment: 9
+      pivot: {x: 0.6677852, y: -0}
+      border: {x: 199, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deda01086de3c9cc0800000000000000
+      internalID: -3703015702612890131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon13_run_5
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 0
+        width: 298
+        height: 324
+      alignment: 9
+      pivot: {x: 0.6107383, y: -0}
+      border: {x: 182, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741abd838732c8b30800000000000000
+      internalID: 4290843544234205511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_13A_2048_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1027
+        width: 1862
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d91529318663a60800000000000000
+      internalID: 7653419050031226207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

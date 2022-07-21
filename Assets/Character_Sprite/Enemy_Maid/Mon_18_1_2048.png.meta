@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 4602f702190579d45ac1c7f20cee7385
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8515125922641319749
+    second: Mon18_idle_1
+  - first:
+      213: 7047807919223489408
+    second: Mon18_idle_2
+  - first:
+      213: -7055649917229489561
+    second: Mon18_idle_3
+  - first:
+      213: 6996127087411840256
+    second: Mon18_idle_4
+  - first:
+      213: -7450667956186931078
+    second: Mon18_attack_1
+  - first:
+      213: -2921273106399815382
+    second: Mon18_attack_2
+  - first:
+      213: 1588900214249659965
+    second: Mon18_attack_4
+  - first:
+      213: 6137876221068913956
+    second: Mon18_attack_3
+  - first:
+      213: -4255244449774634484
+    second: Mon_18_1_2048_14
+  - first:
+      213: -3881312114635446717
+    second: Mon_18_1_2048_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +105,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon18_idle_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 317
+        width: 111
+        height: 207
+      alignment: 9
+      pivot: {x: 1, y: 0.5748792}
+      border: {x: 0, y: 119, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb86e33a61234d980800000000000000
+      internalID: -8515125922641319749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_idle_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 317
+        width: 113
+        height: 207
+      alignment: 9
+      pivot: {x: 1, y: 0.5748792}
+      border: {x: 0, y: 119, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083408e26f7dec160800000000000000
+      internalID: 7047807919223489408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_idle_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 317
+        width: 115
+        height: 207
+      alignment: 9
+      pivot: {x: 0.99999994, y: 0.5748792}
+      border: {x: 0, y: 119, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762a50068cb451e90800000000000000
+      internalID: -7055649917229489561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_idle_4
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 317
+        width: 113
+        height: 207
+      alignment: 9
+      pivot: {x: 1, y: 0.5748792}
+      border: {x: 0, y: 119, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005cba8d48c371160800000000000000
+      internalID: 6996127087411840256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_attack_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 251
+        width: 207
+        height: 240
+      alignment: 9
+      pivot: {x: 1, y: 0.47083336}
+      border: {x: 0, y: 113, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a71c18f8e99890800000000000000
+      internalID: -7450667956186931078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 258
+        width: 600
+        height: 215
+      alignment: 9
+      pivot: {x: 1, y: 0.49302325}
+      border: {x: 543, y: 106, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a291329569d8577d0800000000000000
+      internalID: -2921273106399815382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_attack_4
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 10
+        width: 230
+        height: 203
+      alignment: 9
+      pivot: {x: 0.99999994, y: 0.51724136}
+      border: {x: 0, y: 105, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e94e59358ec0610800000000000000
+      internalID: 1588900214249659965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon18_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 8
+        width: 594
+        height: 212
+      alignment: 9
+      pivot: {x: 1, y: 0.509434}
+      border: {x: 0, y: 108, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d212837ed1e2550800000000000000
+      internalID: 6137876221068913956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_18_1_2048_0
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 251
+        width: 847
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346ebb0223fc22ac0800000000000000
+      internalID: -3881312114635446717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

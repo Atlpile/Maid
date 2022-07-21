@@ -40,7 +40,7 @@ public class Maid_Dash : MonoBehaviour
                 //若y轴速度>0 且人物不在地面（处于起跳状态）
                 if (maid.rb.velocity.y > 0 && !maid.isGround)
                 {
-                    maid.rb.velocity = new Vector2(dashSpeed * maid.horizontalMove, maid.rb.velocity.y);
+                    maid.rb.velocity = new Vector2(dashSpeed * maid.playerHorizontalMove, maid.rb.velocity.y);
                 }
 
                 //【Bug修复】使用transform.localScale.x可以达到沿自身朝向冲刺的效果   【拓展：可以用做后撤效果】
@@ -65,7 +65,7 @@ public class Maid_Dash : MonoBehaviour
                 //若人物不在地面（冲刺过程中仍在空中）
                 if (!maid.isGround)
                 {
-                    maid.rb.velocity = new Vector2(dashSpeed * maid.horizontalMove, maid.rb.velocity.y);
+                    maid.rb.velocity = new Vector2(dashSpeed * maid.playerHorizontalMove, maid.rb.velocity.y);
                 }
             }
         }

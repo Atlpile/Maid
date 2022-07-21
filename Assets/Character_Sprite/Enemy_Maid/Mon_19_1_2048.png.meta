@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: dedcb67b5a36b4440bfcb144894c004d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9077631931002655394
+    second: 666
+  - first:
+      213: -797032602576659168
+    second: Mon19_attack_1
+  - first:
+      213: -1329374194448408261
+    second: Mon19_attack_4
+  - first:
+      213: 6041393051060313323
+    second: Mon19_attack_3
+  - first:
+      213: -3339830709117460569
+    second: Mon19_idle_1
+  - first:
+      213: -3975045438533939115
+    second: Mon_19_1_2048_15
+  - first:
+      213: -8011483903506378639
+    second: Mon19_idle_2
+  - first:
+      213: -1894489298136825409
+    second: Mon19_idle_3
+  - first:
+      213: -2562304185757043714
+    second: Mon_19_1_2048_20
+  - first:
+      213: 8477666084857212555
+    second: Mon19_idle_4
+  - first:
+      213: 3606998355870887659
+    second: Mon19_attack_2
+  - first:
+      213: 3977481108959991868
+    second: Mon_19_1_2048_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 666
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1158
+        width: 277
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a21829552a3afd70800000000000000
+      internalID: 9077631931002655394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_attack_1
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1327
+        width: 267
+        height: 162
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d5301221f50f4f0800000000000000
+      internalID: -797032602576659168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_attack_4
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 638
+        width: 267
+        height: 727
+      alignment: 9
+      pivot: {x: 0.50187266, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31e456a63d1d8de0800000000000000
+      internalID: -1329374194448408261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 871
+        width: 267
+        height: 705
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec96f4a8f657d350800000000000000
+      internalID: 6041393051060313323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_idle_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1144
+        width: 263
+        height: 100
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 128, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afdc1d4aa986a1d0800000000000000
+      internalID: -3339830709117460569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_19_1_2048_15
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 975
+        width: 276
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550d52efb3dc5d8c0800000000000000
+      internalID: -3975045438533939115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_idle_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1029
+        width: 263
+        height: 103
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 129, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1701ebf16dd71d090800000000000000
+      internalID: -8011483903506378639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_idle_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 914
+        width: 263
+        height: 105
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 130, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb186c1550c65b5e0800000000000000
+      internalID: -1894489298136825409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_19_1_2048_20
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 800
+        width: 275
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef374713bedd07cd0800000000000000
+      internalID: -2562304185757043714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_idle_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 798
+        width: 263
+        height: 102
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 129, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e6a483368b6a570800000000000000
+      internalID: 8477666084857212555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon19_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 498
+        width: 263
+        height: 363
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee2a1bd4e1ae0230800000000000000
+      internalID: 3606998355870887659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_19_1_2048_0
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 919
+        width: 263
+        height: 446
+      alignment: 9
+      pivot: {x: 0.50190115, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381368bef9d23730800000000000000
+      internalID: 3977481108959991868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

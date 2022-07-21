@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 5e228a128f5995d4e9c22e51cfeb2422
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 769196345929131844
+    second: Mon22_standUp_1
+  - first:
+      213: 8234483303677002581
+    second: Mon22_standUp_2
+  - first:
+      213: 1002236140833746660
+    second: Mon22_standUp_3
+  - first:
+      213: -8799467854542839389
+    second: Mon22_standUp_4
+  - first:
+      213: 8359217078459384874
+    second: Mon22_standUp_5
+  - first:
+      213: 8523428052608441048
+    second: Mon22_standUp_6
+  - first:
+      213: -1126260748589075995
+    second: Mon22_standUp_7
+  - first:
+      213: 4582327087617915058
+    second: Mon_22_2A_2048_14
+  - first:
+      213: 8151874973468094650
+    second: Mon22_attack_1
+  - first:
+      213: 4597543181155788318
+    second: Mon22_attack_2
+  - first:
+      213: -48835167863845433
+    second: Mon22_attack_3
+  - first:
+      213: -8665885813130767235
+    second: Mon_22_2A_2048_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,252 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon22_standUp_1
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 615
+        width: 148
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44762a1500cbcaa00800000000000000
+      internalID: 769196345929131844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_standUp_2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 615
+        width: 154
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5538d80cfe2c64270800000000000000
+      internalID: 8234483303677002581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_standUp_3
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 615
+        width: 117
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee2473c578a8ed00800000000000000
+      internalID: 1002236140833746660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_standUp_4
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 585
+        width: 127
+        height: 82
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.36585364}
+      border: {x: 0, y: 30, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1618d9b9202e580800000000000000
+      internalID: -8799467854542839389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_standUp_5
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 588
+        width: 144
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 27, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2443f1d4a7e10470800000000000000
+      internalID: 8359217078459384874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_standUp_6
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 530
+        width: 244
+        height: 148
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.22972974}
+      border: {x: 0, y: 34, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da5350a7ac494670800000000000000
+      internalID: 8523428052608441048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_standUp_7
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 389
+        width: 327
+        height: 294
+      alignment: 9
+      pivot: {x: 0.49847096, y: 0.22108842}
+      border: {x: 0, y: 65, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1f1ebf0d7be50f0800000000000000
+      internalID: -1126260748589075995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_attack_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 406
+        height: 386
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17875648}
+      border: {x: 0, y: 69, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab076fe0917412170800000000000000
+      internalID: 8151874973468094650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 406
+        height: 386
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17875648}
+      border: {x: 0, y: 69, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e166f481a21cdcf30800000000000000
+      internalID: 4597543181155788318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon22_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 406
+        height: 386
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17875648}
+      border: {x: 0, y: 69, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdcdee6ca0825ff0800000000000000
+      internalID: -48835167863845433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_22_2A_2048_0
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 1234
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d745e3c44c69cb780800000000000000
+      internalID: -8665885813130767235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

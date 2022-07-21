@@ -28,4 +28,6 @@ public enum E_PlatformType
     DelayDestroy,
 }
 
+public enum E_SimpleEnemyType { Ground, Fly, Static }
+
 

@@ -17,7 +17,7 @@ public class PlayerController_Maid : MonoBehaviour
 
     [Header("移动监视")]
     public float currentSpeed;
-    [HideInInspector] public float horizontalMove;
+    [HideInInspector] public float playerHorizontalMove;
 
     [Header("跳跃参数")]
     public float jumpForce;
@@ -68,7 +68,7 @@ public class PlayerController_Maid : MonoBehaviour
         //加载场景时获取Player保存的位置
         SaveManager.Instance.LoadPlayerPositionData("PlayerPoX", "PlayerPoY");
 
-        currentSpeed = maidStats.PlayerCurrentSpeed;
+        currentSpeed = maidStats.CurrentSpeed;
 
         ReadyToCrouch();
     }
@@ -118,19 +118,19 @@ public class PlayerController_Maid : MonoBehaviour
     {
         CrouchStateCheck();
 
-        horizontalMove = Input.GetAxisRaw("Horizontal");
+        playerHorizontalMove = Input.GetAxisRaw("Horizontal");
 
         //Player翻转
-        if (horizontalMove > 0f)
+        if (playerHorizontalMove > 0f)
             transform.localRotation = Quaternion.Euler(0, 0, 0);
-        else if (horizontalMove < 0f)
+        else if (playerHorizontalMove < 0f)
             transform.localRotation = Quaternion.Euler(0, 180, 0);
 
         if (isCrouch)
             return;
 
         //Player移动
-        rb.velocity = new Vector2(horizontalMove * currentSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(playerHorizontalMove * currentSpeed, rb.velocity.y);
     }
 
     public void JumpStateCheck()
@@ -160,6 +160,8 @@ public class PlayerController_Maid : MonoBehaviour
     public void Jump()
     {
         JumpStateCheck();
+
+        //FIXME:修复跳跃时，播放下蹲动画
 
         if (jumpPressed && !isJump && !isHeadBlocked && isGround)                           //实现跳跃的条件
         {
@@ -215,7 +217,7 @@ public class PlayerController_Maid : MonoBehaviour
     private void StandUp()
     {
         isCrouch = false;
-        currentSpeed = maidStats.PlayerOriginSpeed;
+        currentSpeed = maidStats.OriginSpeed;
 
         coll.size = colliderStandSize;
         coll.offset = colliderStandOffset;

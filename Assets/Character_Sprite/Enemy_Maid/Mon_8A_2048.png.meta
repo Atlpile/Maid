@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 6baf458b4aa73744bba951c526dd6a77
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4329013333648903601
+    second: Mon8_idle_1
+  - first:
+      213: -5870777941860223066
+    second: Mon8_idle_2
+  - first:
+      213: -5669724503433730862
+    second: Mon8_idle_3
+  - first:
+      213: 4252174206134941989
+    second: Mon8_idle_4
+  - first:
+      213: 8074578980470794090
+    second: Mon8_idle_5
+  - first:
+      213: -2125740079949252599
+    second: Mon_8A_2048_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +93,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon8_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1825
+        width: 272
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14814815}
+      border: {x: 0, y: 32, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd821cd0beb31c30800000000000000
+      internalID: 4329013333648903601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon8_idle_2
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1593
+        width: 272
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1495327}
+      border: {x: 0, y: 32, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7f83c019ec68ea0800000000000000
+      internalID: -5870777941860223066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon8_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1361
+        width: 272
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14678898}
+      border: {x: 0, y: 32, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d421868a971151b0800000000000000
+      internalID: -5669724503433730862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon8_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1129
+        width: 272
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14479639}
+      border: {x: 0, y: 32, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52970c759e1c20b30800000000000000
+      internalID: 4252174206134941989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon8_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 897
+        width: 272
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14545454}
+      border: {x: 0, y: 32, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672cc14dcaae0070800000000000000
+      internalID: 8074578980470794090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_8A_2048_0
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 897
+        width: 272
+        height: 1144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90870d1f8aadf72e0800000000000000
+      internalID: -2125740079949252599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

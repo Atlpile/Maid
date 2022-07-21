@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: a388097d420be0c4f8ede71af597ed09
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4826736481073351648
+    second: Mon12_run_1
+  - first:
+      213: -2059372783638206080
+    second: Mon12_run_2
+  - first:
+      213: -5902982933964285613
+    second: Mon12_run_3
+  - first:
+      213: -7714244321871317755
+    second: Mon12_run_4
+  - first:
+      213: -6826215702756789025
+    second: Mon12_run_5
+  - first:
+      213: -1353254586941474472
+    second: Mon_12H_2B_2048_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +93,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon12_run_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 392
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5255102, y: -0}
+      border: {x: 206, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024343d5ebcf30db0800000000000000
+      internalID: -4826736481073351648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon12_run_2
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1
+        width: 396
+        height: 484
+      alignment: 9
+      pivot: {x: 0.52020204, y: 0}
+      border: {x: 206, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08923234d53ab63e0800000000000000
+      internalID: -2059372783638206080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon12_run_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1
+        width: 391
+        height: 484
+      alignment: 9
+      pivot: {x: 0.52429664, y: -0}
+      border: {x: 205, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3599dd10c44641ea0800000000000000
+      internalID: -5902982933964285613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon12_run_4
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1
+        width: 393
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5318066, y: 0}
+      border: {x: 209, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505394c39af71f490800000000000000
+      internalID: -7714244321871317755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon12_run_5
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1
+        width: 393
+        height: 484
+      alignment: 9
+      pivot: {x: 0.52671754, y: -0}
+      border: {x: 207, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4fcf43cf86441a0800000000000000
+      internalID: -6826215702756789025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_12H_2B_2048_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 2025
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8597fae7f16483de0800000000000000
+      internalID: -1353254586941474472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 261672bed896f1d4cb7e59f278cf96a8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 393037977482738695
+    second: Mon16_run_1
+  - first:
+      213: 5277025666063513655
+    second: Mon16_run_2
+  - first:
+      213: -1401009219245659068
+    second: Mon16_run_3
+  - first:
+      213: -8055461727525922831
+    second: Mon16_skill_1
+  - first:
+      213: 5866124883142704134
+    second: Mon16_skill_2
+  - first:
+      213: 6507861937444506846
+    second: Mon_16_2_2048_5
+  - first:
+      213: 1896924902301681522
+    second: Mon_16_2_2048_6
+  - first:
+      213: 8687714894474605125
+    second: Mon_16_2_2048_7
+  - first:
+      213: -6955448140139944609
+    second: Mon_16_2_2048_8
+  - first:
+      213: 8398530558932496232
+    second: Mon_16_2_2048_9
+  - first:
+      213: -2966480091788615406
+    second: Mon_16_2_2048_10
+  - first:
+      213: 7381551177152529431
+    second: Mon_16_2_2048_11
+  - first:
+      213: -7756113953915109897
+    second: Mon_16_2_2048_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +114,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon16_run_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1243
+        width: 663
+        height: 805
+      alignment: 9
+      pivot: {x: 0.49170437, y: -0}
+      border: {x: 326, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb81745f9547500800000000000000
+      internalID: 393037977482738695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_run_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1243
+        width: 682
+        height: 805
+      alignment: 9
+      pivot: {x: 0.4941349, y: 0}
+      border: {x: 337, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738b55862e2cb3940800000000000000
+      internalID: 5277025666063513655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_run_3
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1243
+        width: 656
+        height: 805
+      alignment: 9
+      pivot: {x: 0.4969512, y: -0}
+      border: {x: 326, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ca0d7b98d9e8ce0800000000000000
+      internalID: -1401009219245659068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_skill_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 349
+        width: 1036
+        height: 885
+      alignment: 9
+      pivot: {x: 0.4353282, y: 0}
+      border: {x: 451, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7101d0d30453090800000000000000
+      internalID: -8055461727525922831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon16_skill_2
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 349
+        width: 842
+        height: 885
+      alignment: 9
+      pivot: {x: 0.4216152, y: 0}
+      border: {x: 355, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cfccb4089a86150800000000000000
+      internalID: 5866124883142704134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_16_2_2048_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1243
+        width: 2024
+        height: 805
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd707bd37fbc5490800000000000000
+      internalID: -7756113953915109897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -67,15 +67,15 @@ public class CharacterStats : MonoBehaviour
         set { attackData.attackArea = value; }
     }
 
-    public float PlayerOriginSpeed
+    public float OriginSpeed
     {
-        get { if (characterData != null) return characterData.playerOriginSpeed; else return 0; }
-        set { characterData.playerOriginSpeed = value; }
+        get { if (characterData != null) return characterData.originSpeed; else return 0; }
+        set { characterData.originSpeed = value; }
     }
-    public float PlayerCurrentSpeed
+    public float CurrentSpeed
     {
-        get { if (characterData != null) return characterData.playerCurrentSpeed; else return 0; }
-        set { characterData.playerCurrentSpeed = value; }
+        get { if (characterData != null) return characterData.currentSpeed; else return 0; }
+        set { characterData.currentSpeed = value; }
     }
     public int playerJumpCount
     {

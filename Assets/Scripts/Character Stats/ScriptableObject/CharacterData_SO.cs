@@ -16,7 +16,7 @@ public class CharacterData_SO : ScriptableObject
     public int currentDefence;      //当前防御
 
     [Header("Player属性")]
-    public float playerOriginSpeed;
-    public float playerCurrentSpeed;
+    public float originSpeed;
+    public float currentSpeed;
     public int playerJumpCount;
 }

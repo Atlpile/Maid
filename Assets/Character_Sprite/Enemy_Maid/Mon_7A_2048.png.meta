@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: d1abc96f19b05714b930a3a84d016220
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -846106873115549061
+    second: Mon_7A_2048_0
+  - first:
+      213: -8427778134630913309
+    second: Mon_7A_2048_1
+  - first:
+      213: 1662049127402820039
+    second: Mon_7A_2048_2
+  - first:
+      213: 5507763823150658907
+    second: Mon_7A_2048_3
+  - first:
+      213: 1154238171804986402
+    second: Mon_7A_2048_4
+  - first:
+      213: -4002909962074303991
+    second: Mon_7A_2048_5
+  - first:
+      213: -7135716412616904721
+    second: Mon_7A_2048_6
+  - first:
+      213: -3828292211956388088
+    second: Mon_7A_2048_7
+  - first:
+      213: -2565714951772644987
+    second: Mon_7A_2048_8
+  - first:
+      213: 1703557512192435891
+    second: Mon_7A_2048_9
+  - first:
+      213: 1040846392989702501
+    second: Mon_7A_2048_10
+  - first:
+      213: -579698805548351389
+    second: Mon_7A_2048_11
+  - first:
+      213: -3793742091842943678
+    second: Mon_7A_2048_12
+  - first:
+      213: -2564466119426219160
+    second: Mon_7A_2048_13
+  - first:
+      213: -71066480800645530
+    second: Mon_7A_2048_14
+  - first:
+      213: 5676866385633127940
+    second: Mon_7A_2048_15
+  - first:
+      213: -1639790210149088044
+    second: Mon_7A_2048_16
+  - first:
+      213: -930720497160985756
+    second: Mon_7A_2048_17
+  - first:
+      213: -3205641657967210410
+    second: Mon_7A_2048_18
+  - first:
+      213: 8874561846108624041
+    second: Mon_7A_2048_19
+  - first:
+      213: 808965997282044397
+    second: Mon7_idle_1
+  - first:
+      213: 5765077177411649861
+    second: Mon7_idle_2
+  - first:
+      213: 1039104804001126922
+    second: Mon7_idle_3
+  - first:
+      213: -5931631920276184476
+    second: Mon7_idle_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +113,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +147,294 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon_7A_2048_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 478
+        width: 1125
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b726ee128460244f0800000000000000
+      internalID: -846106873115549061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 1689
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea258750748a0b80800000000000000
+      internalID: -8427778134630913309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 508
+        width: 138
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2450146eaabe95bc0800000000000000
+      internalID: -3793742091842943678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 508
+        width: 149
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8636319c6af296cd0800000000000000
+      internalID: -2564466119426219160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_14
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 507
+        width: 154
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eb0788965830ff0800000000000000
+      internalID: -71066480800645530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 508
+        width: 144
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ea40186e748ce40800000000000000
+      internalID: 5676866385633127940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 508
+        width: 117
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d486e9ed7b4e39e0800000000000000
+      internalID: -1639790210149088044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 478
+        width: 127
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4636b8593aa6513f0800000000000000
+      internalID: -930720497160985756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_7A_2048_18
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 480
+        width: 144
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6509ba375e54383d0800000000000000
+      internalID: -3205641657967210410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon7_idle_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 416
+        height: 339
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179941}
+      border: {x: 0, y: 0, z: 0, w: 278}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ad57d9460a3b00800000000000000
+      internalID: 808965997282044397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon7_idle_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 416
+        height: 339
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179941}
+      border: {x: 0, y: 0, z: 0, w: 278}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541455ee52ba10050800000000000000
+      internalID: 5765077177411649861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon7_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2
+        width: 416
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17507419}
+      border: {x: 0, y: 0, z: 0, w: 278}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a93e65054ab6e00800000000000000
+      internalID: 1039104804001126922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon7_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 416
+        height: 339
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179941}
+      border: {x: 0, y: 0, z: 0, w: 278}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462e195123c9eada0800000000000000
+      internalID: -5931631920276184476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

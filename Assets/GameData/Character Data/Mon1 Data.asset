@@ -16,5 +16,8 @@ MonoBehaviour:
   currentHealth: 50
   maxMagic: 0
   currentMagic: 0
-  baseDefence: 0
+  maxDefence: 0
   currentDefence: 0
+  originSpeed: 0
+  currentSpeed: 5
+  playerJumpCount: 0

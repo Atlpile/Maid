@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 88b7ac63ea59a2440b721e6b5d84eb91
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5675994987931939412
+    second: Mon24_attack_1
+  - first:
+      213: 7158798810777680026
+    second: Mon24_attack_2
+  - first:
+      213: -8199043634563411203
+    second: Mon24_attack_3
+  - first:
+      213: 1092735645017446660
+    second: Mon24_attack_4
+  - first:
+      213: -5615594117957664083
+    second: Mon24_attack_5
+  - first:
+      213: -664122206832016504
+    second: Mon_24_2_2048_5
+  - first:
+      213: -5515429304506445387
+    second: Mon_24_2_2048_6
+  - first:
+      213: 7079872896286618048
+    second: Mon_24_2_2048_7
+  - first:
+      213: 7944862369605665271
+    second: Mon24_skill_1
+  - first:
+      213: 6771809913838374025
+    second: Mon_24_2_2048_9
+  - first:
+      213: -2587128270172717125
+    second: Mon_24_2_2048_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +108,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon24_attack_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1444
+        width: 589
+        height: 603
+      alignment: 9
+      pivot: {x: 0.27674025, y: 0}
+      border: {x: 163, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452b49a6e5f25ce40800000000000000
+      internalID: 5675994987931939412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon24_attack_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1444
+        width: 625
+        height: 600
+      alignment: 9
+      pivot: {x: 0.2048, y: 0}
+      border: {x: 128, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9874e6e699295360800000000000000
+      internalID: 7158798810777680026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon24_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1445
+        width: 563
+        height: 588
+      alignment: 9
+      pivot: {x: 0.43516874, y: -0}
+      border: {x: 245, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df29be73145273e80800000000000000
+      internalID: -8199043634563411203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon24_attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 838
+        width: 502
+        height: 576
+      alignment: 9
+      pivot: {x: 0.6015936, y: 0}
+      border: {x: 302, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091ca2974d2a2f00800000000000000
+      internalID: 1092735645017446660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon24_attack_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 736
+        width: 464
+        height: 701
+      alignment: 9
+      pivot: {x: 0.56681037, y: 0}
+      border: {x: 263, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da24c5407e66112b0800000000000000
+      internalID: -5615594117957664083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_24_2_2048_5
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1047
+        width: 663
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883445e1f5098c6f0800000000000000
+      internalID: -664122206832016504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_24_2_2048_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 934
+        width: 1029
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b11d1105424573b0800000000000000
+      internalID: -5515429304506445387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_24_2_2048_7
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 687
+        width: 1064
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1741e63e2c04260800000000000000
+      internalID: 7079872896286618048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon24_skill_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 545
+        height: 598
+      alignment: 9
+      pivot: {x: 0.58715594, y: 0}
+      border: {x: 320, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1c6b14b32d14e60800000000000000
+      internalID: 7944862369605665271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,73 @@
 fileFormatVersion: 2
 guid: 63e2c656cf91dca409b47b575be2da26
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5186843941758904470
+    second: Mon_14H_70B_2048_0
+  - first:
+      213: 6834155958351010427
+    second: Mon_14H_70B_2048_1
+  - first:
+      213: 2594911186818931882
+    second: Mon_14H_70B_2048_2
+  - first:
+      213: -3887925732436399071
+    second: Mon_14H_70B_2048_3
+  - first:
+      213: -1030326704255144822
+    second: Mon15_attack_1
+  - first:
+      213: -3363821995641497287
+    second: Mon_14H_70B_2048_5
+  - first:
+      213: 4530093545378270675
+    second: Mon_14H_70B_2048_6
+  - first:
+      213: -5375854519624536179
+    second: Mon_14H_70B_2048_7
+  - first:
+      213: 1234222643423768857
+    second: Mon_14H_70B_2048_8
+  - first:
+      213: 4715975941103737250
+    second: Mon15_attack_2
+  - first:
+      213: 5151625634006314701
+    second: Mon15_attack_3
+  - first:
+      213: 3699117763946080672
+    second: Mon_14H_70B_2048_11
+  - first:
+      213: -9070532315818758087
+    second: Mon_14H_70B_2048_12
+  - first:
+      213: -3406262624309146053
+    second: Mon_14H_70B_2048_13
+  - first:
+      213: -6848272893259575461
+    second: Mon15_bullet_1
+  - first:
+      213: 8357523630325530315
+    second: Mon15_bullet_6
+  - first:
+      213: -556078431427500147
+    second: Mon15_bullet_2
+  - first:
+      213: -4442116755375106069
+    second: Mon15_bullet_3
+  - first:
+      213: -2445715877672851185
+    second: Mon15_bullet_4
+  - first:
+      213: -3304722060643631026
+    second: Mon15_bullet_5
+  - first:
+      213: 6951545125794356978
+    second: Mon_14H_70B_2048_20
+  - first:
+      213: -8901252785086626543
+    second: Mon_14H_70B_2048_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +107,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +141,252 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mon15_attack_1
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1668
+        width: 247
+        height: 378
+      alignment: 9
+      pivot: {x: 0.51417005, y: 0.99999994}
+      border: {x: 127, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce546425b83b1f0800000000000000
+      internalID: -1030326704255144822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1281
+        width: 247
+        height: 370
+      alignment: 9
+      pivot: {x: 0.39676115, y: 1}
+      border: {x: 98, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9d6c2d123827140800000000000000
+      internalID: 4715975941103737250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 892
+        width: 247
+        height: 368
+      alignment: 9
+      pivot: {x: 0.34817815, y: 1}
+      border: {x: 86, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce2eba38304e7740800000000000000
+      internalID: 5151625634006314701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_bullet_1
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 631
+        width: 117
+        height: 69
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.44927537}
+      border: {x: 39, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f8358561c06f0a0800000000000000
+      internalID: -6848272893259575461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_bullet_6
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 521
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce7c733673ebf370800000000000000
+      internalID: 8357523630325530315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_bullet_2
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 527
+        width: 164
+        height: 69
+      alignment: 9
+      pivot: {x: 0.23780487, y: 0.44927537}
+      border: {x: 39, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87e183ec996848f0800000000000000
+      internalID: -556078431427500147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_bullet_3
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 415
+        width: 284
+        height: 81
+      alignment: 9
+      pivot: {x: 0.13380282, y: 0.49382716}
+      border: {x: 38, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be75e09a85e6a52c0800000000000000
+      internalID: -4442116755375106069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_bullet_4
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 308
+        width: 281
+        height: 87
+      alignment: 9
+      pivot: {x: 0.14234875, y: 0.49425286}
+      border: {x: 40, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09e6c10e521f0ed0800000000000000
+      internalID: -2445715877672851185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon15_bullet_5
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 203
+        width: 285
+        height: 83
+      alignment: 9
+      pivot: {x: 0.1368421, y: 0.5301205}
+      border: {x: 39, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4080f58bc44322d0800000000000000
+      internalID: -3304722060643631026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_14H_70B_2048_20
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 892
+        width: 247
+        height: 1154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe12170679d87060800000000000000
+      internalID: 6951545125794356978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_14H_70B_2048_21
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 203
+        width: 285
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11584f8b0c5687480800000000000000
+      internalID: -8901252785086626543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

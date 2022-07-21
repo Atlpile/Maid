@@ -4,67 +4,73 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1247011880411434710
-    second: idle_1
+    second: Mon5_idle_1
   - first:
       213: -7922056117195300505
-    second: idle_2
+    second: Mon5_idle_2
   - first:
       213: 1781604787697302373
-    second: idle_3
+    second: Mon5_idle_3
   - first:
       213: -3064206647782477871
-    second: idle_4
+    second: Mon5_idle_4
   - first:
       213: 3902819144775817769
-    second: run_1
+    second: Mon5_run_1
   - first:
       213: -6926884500100497121
-    second: run_2
+    second: Mon5_run_2
   - first:
       213: 7523221891867420670
-    second: run_3
+    second: Mon5_run_3
   - first:
       213: 4831011300091883341
-    second: attack_1
+    second: Mon5_attack_1
   - first:
       213: 2277135962907131057
-    second: attack_2
+    second: Mon5_attack_2
   - first:
       213: -6517343402012789123
-    second: attack_3
+    second: Mon5_attack_3
   - first:
       213: -6413059329597821302
-    second: attack_4
+    second: Mon5_attack_4
   - first:
       213: 3625698069486405659
-    second: _idle_1
+    second: Mon6_idle_1
   - first:
       213: 7954138025655117974
-    second: _idle_2
+    second: Mon6_idle_2
   - first:
       213: 5494132811570890805
-    second: _run_1
+    second: Mon6_run_1
   - first:
       213: 2722456532209931888
-    second: _run_2
+    second: Mon6_run_2
   - first:
       213: -6381756369412246065
-    second: _run_3
+    second: Mon6_run_3
   - first:
       213: 5192994444989140365
-    second: _run_4
+    second: Mon6_run_4
   - first:
       213: 8878058676132926071
-    second: _attack_1
+    second: Mon6_attack_1
   - first:
       213: 3453774218992582244
-    second: _attack_2
+    second: Mon6_attack_2
   - first:
       213: -351590912181816134
-    second: _attack_3
+    second: Mon6_attack_3
   - first:
       213: 6766667180933968859
-    second: _attack_4
+    second: Mon6_attack_4
+  - first:
+      213: 1461528317149892831
+    second: Mon_3_2048_21
+  - first:
+      213: 7723412265235438578
+    second: Mon_3_2048_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -154,16 +160,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_1
+      name: Mon5_idle_1
       rect:
         serializedVersion: 2
         x: 4
         y: 1607
-        width: 198
+        width: 200
         height: 441
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.385, y: 0}
+      border: {x: 77, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -175,16 +181,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: Mon5_idle_2
       rect:
         serializedVersion: 2
         x: 214
         y: 1607
         width: 200
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.39499998, y: -0}
+      border: {x: 79, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -196,16 +202,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: Mon5_idle_3
       rect:
         serializedVersion: 2
         x: 430
         y: 1607
-        width: 196
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 200
+        height: 441
+      alignment: 9
+      pivot: {x: 0.375, y: -0}
+      border: {x: 75, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -217,16 +223,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: Mon5_idle_4
       rect:
         serializedVersion: 2
         x: 643
         y: 1607
-        width: 195
-        height: 437
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        width: 200
+        height: 441
+      alignment: 9
+      pivot: {x: 0.37, y: 0}
+      border: {x: 74, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -238,16 +244,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_1
+      name: Mon5_run_1
       rect:
         serializedVersion: 2
         x: 861
         y: 1607
         width: 322
-        height: 435
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.7173913, y: -0}
+      border: {x: 231, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -259,16 +265,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_2
+      name: Mon5_run_2
       rect:
         serializedVersion: 2
-        x: 1220
+        x: 1219
         y: 1607
         width: 349
-        height: 428
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.6905444, y: 0}
+      border: {x: 241, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -280,16 +286,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_3
+      name: Mon5_run_3
       rect:
         serializedVersion: 2
         x: 1585
-        y: 1608
+        y: 1607
         width: 357
-        height: 439
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.66386557, y: 0}
+      border: {x: 237, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -301,16 +307,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_1
+      name: Mon5_attack_1
       rect:
         serializedVersion: 2
         x: 30
-        y: 1161
+        y: 1157
         width: 172
-        height: 413
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.29651162, y: 0}
+      border: {x: 51, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -322,16 +328,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_2
+      name: Mon5_attack_2
       rect:
         serializedVersion: 2
         x: 242
         y: 1157
         width: 172
-        height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.29651162, y: 0}
+      border: {x: 51, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -343,16 +349,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_3
+      name: Mon5_attack_3
       rect:
         serializedVersion: 2
         x: 470
         y: 1157
         width: 330
-        height: 401
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0}
+      border: {x: 209, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -364,16 +370,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_4
+      name: Mon5_attack_4
       rect:
         serializedVersion: 2
         x: 812
         y: 1157
         width: 374
-        height: 424
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 441
+      alignment: 9
+      pivot: {x: 0.6764706, y: 0}
+      border: {x: 253, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -385,16 +391,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _idle_1
+      name: Mon6_idle_1
       rect:
         serializedVersion: 2
         x: 1
-        y: 448
+        y: 446
         width: 264
-        height: 428
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5984849, y: 0}
+      border: {x: 158, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -406,16 +412,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _idle_2
+      name: Mon6_idle_2
       rect:
         serializedVersion: 2
         x: 275
-        y: 448
+        y: 446
         width: 263
-        height: 420
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 437
+      alignment: 9
+      pivot: {x: 0.60076046, y: -0}
+      border: {x: 158, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -427,16 +433,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _run_1
+      name: Mon6_run_1
       rect:
         serializedVersion: 2
         x: 554
-        y: 447
+        y: 446
         width: 293
-        height: 431
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 437
+      alignment: 9
+      pivot: {x: 0.68941975, y: -0}
+      border: {x: 202, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -448,16 +454,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _run_2
+      name: Mon6_run_2
       rect:
         serializedVersion: 2
         x: 883
-        y: 449
+        y: 446
         width: 326
-        height: 423
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 437
+      alignment: 9
+      pivot: {x: 0.6349693, y: -0}
+      border: {x: 207, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -469,16 +475,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _run_3
+      name: Mon6_run_3
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 446
+        x: 1223
+        y: 449
         width: 305
-        height: 430
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 437
+      alignment: 9
+      pivot: {x: 0.6721311, y: -0}
+      border: {x: 205, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -490,16 +496,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _run_4
+      name: Mon6_run_4
       rect:
         serializedVersion: 2
         x: 1558
-        y: 447
+        y: 446
         width: 271
-        height: 436
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 437
+      alignment: 9
+      pivot: {x: 0.75645757, y: -0}
+      border: {x: 205, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -511,16 +517,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _attack_1
+      name: Mon6_attack_1
       rect:
         serializedVersion: 2
         x: 0
         y: 2
         width: 239
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 435
+      alignment: 9
+      pivot: {x: 0.56485355, y: 0}
+      border: {x: 135, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -532,16 +538,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _attack_2
+      name: Mon6_attack_2
       rect:
         serializedVersion: 2
         x: 250
         y: 2
         width: 235
-        height: 424
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 435
+      alignment: 9
+      pivot: {x: 0.46808508, y: 0}
+      border: {x: 110, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -553,16 +559,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _attack_3
+      name: Mon6_attack_3
       rect:
         serializedVersion: 2
         x: 495
         y: 2
         width: 254
-        height: 409
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        height: 435
+      alignment: 9
+      pivot: {x: 0.5866142, y: 0}
+      border: {x: 149, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -574,13 +580,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _attack_4
+      name: Mon6_attack_4
       rect:
         serializedVersion: 2
         x: 759
         y: 2
         width: 293
-        height: 417
+        height: 435
+      alignment: 9
+      pivot: {x: 0.6450512, y: 0}
+      border: {x: 189, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3fcd023f708ed50800000000000000
+      internalID: 6766667180933968859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_3_2048_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1157
+        width: 1186
+        height: 441
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,8 +615,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd3fcd023f708ed50800000000000000
-      internalID: 6766667180933968859
+      spriteID: fd0d4ecc244684410800000000000000
+      internalID: 1461528317149892831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_3_2048_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 1829
+        height: 435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbd04be8821f2b60800000000000000
+      internalID: 7723412265235438578
       vertices: []
       indices: 
       edges: []
