@@ -34,13 +34,15 @@ public class SimpleEnemy : MonoBehaviour
     [Header("Check")]
     public Transform groundCheck;
     public Transform blockCheck;
+    public Transform attackCheck;
     public LayerMask groundLayer;
+    public LayerMask playerLayer;
     public float groundCheckRadius;
     public float blockCheckRadius;
+    public float attackCheckRadius;
 
 
     [Header("攻击设置")]
-
     [SerializeField] private float starttimeBetweenAttacks;		//开始攻击间隔时间
     [SerializeField] private float timeBetweenAttacks;			//攻击间隔时间
 
@@ -57,6 +59,8 @@ public class SimpleEnemy : MonoBehaviour
     private void Start()
     {
         monCurrentSpeed = mon1Stats.CurrentSpeed;
+        // timeBetweenAttacks = starttimeBetweenAttacks;
+
     }
 
     private void Update()
@@ -107,6 +111,7 @@ public class SimpleEnemy : MonoBehaviour
             enemyHorizontalMove = 1;
         }
 
+        anim.Play("Run");
         rb.velocity = new Vector2(enemyHorizontalMove * monCurrentSpeed, rb.velocity.y);
     }
 
@@ -120,40 +125,56 @@ public class SimpleEnemy : MonoBehaviour
 
     private void EnemyChase()
     {
-        // Debug.Log("追击Player");
         playerDistanceX = Vector3.Distance(player.position, transform.position);
         // playerDistanceY = player.transform.position.y - transform.position.y;
 
-        //TODO:当Enemy离Player一定距离时，播放攻击动画
-        if (playerDistanceX < 3)
-        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
 
+        //若Player在攻击范围内，且攻击冷却已过，则朝向Player执行攻击
+        if (playerDistanceX <= 3 && timeBetweenAttacks <= 0f)
+        {
             //若Player在自身的右侧，则朝向Player
             if (transform.position.x < player.transform.position.x)
                 transform.localRotation = Quaternion.Euler(0, 180, 0);
             else
                 transform.localRotation = Quaternion.Euler(0, 0, 0);
 
-            return;
+            if (canAttack)
+            {
+                Debug.Log("攻击一次");
+                anim.Play("Attack");
+
+                timeBetweenAttacks = starttimeBetweenAttacks;
+            }
+            else
+            {
+                anim.Play("Idle");
+            }
+        }
+        //若Player不在攻击范围内，则向Player移动
+        else if (playerDistanceX > 3)
+        {
+            if (RightMove(player))
+            {
+                // Debug.Log("向右移动");
+                transform.localRotation = Quaternion.Euler(0, 180, 0);
+                enemyHorizontalMove = 1;
+
+                //TODO:在SO中添加Chase的速度
+                anim.Play("Run");
+                rb.velocity = new Vector2(enemyHorizontalMove * monCurrentSpeed, rb.velocity.y);
+            }
+            else
+            {
+                // Debug.Log("向左移动");
+                transform.localRotation = Quaternion.Euler(0, 0, 0);
+                enemyHorizontalMove = -1;
+
+                anim.Play("Run");
+                rb.velocity = new Vector2(enemyHorizontalMove * monCurrentSpeed, rb.velocity.y);
+            }
         }
 
-        if (RightMove(player))
-        {
-            // Debug.Log("向右移动");
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-            enemyHorizontalMove = 1;
-        }
-        else
-        {
-            // Debug.Log("向左移动");
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-            enemyHorizontalMove = -1;
-        }
-
-        //TODO:在SO中添加Chase的速度
-        anim.Play("Run");
-        rb.velocity = new Vector2(enemyHorizontalMove * monCurrentSpeed, rb.velocity.y);
+        timeBetweenAttacks -= Time.deltaTime;
 
     }
 
@@ -182,12 +203,24 @@ public class SimpleEnemy : MonoBehaviour
 
     #region Enemy攻击功能
 
-    private void EnemyAttack()
+    protected virtual void EnemyAttack()
     {
-
+        //若计时器<=0，则播放Attack动画
+        if (timeBetweenAttacks <= 0f)
+        {
+            Debug.Log("攻击一次");
+            anim.Play("Attack");
+            timeBetweenAttacks = starttimeBetweenAttacks;
+        }
+        //若计时器>0，且Attack动画播放完成，则播放Idle动画
+        else if (timeBetweenAttacks > 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            timeBetweenAttacks -= Time.deltaTime;
+            anim.Play("Idle");
+        }
     }
 
-    private void EnemySkill()
+    protected virtual void EnemySkill()
     {
 
     }
@@ -200,12 +233,14 @@ public class SimpleEnemy : MonoBehaviour
     {
         isGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         isFrontBlock = Physics2D.OverlapCircle(blockCheck.position, blockCheckRadius, groundLayer);
+        canAttack = Physics2D.OverlapCircle(attackCheck.position, attackCheckRadius, playerLayer);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         Gizmos.DrawWireSphere(blockCheck.position, blockCheckRadius);
+        Gizmos.DrawWireSphere(attackCheck.position, attackCheckRadius);
     }
 
     private void OnTriggerStay2D(Collider2D other)

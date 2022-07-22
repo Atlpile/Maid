@@ -116,9 +116,9 @@ public class CharacterStats : MonoBehaviour
             //     defener.GetComponent<Animator>().Play("Dead");
         }
 
-        if (defener.CompareTag("Player") && !attacker.CompareTag("Trap"))
+        if (defener.CompareTag("Player") && attacker.CompareTag("Enemy"))
         {
-            defener.GetComponent<Rigidbody2D>().velocity = new Vector2(hitDirection * hitterVelocityX, hitterVelocityY + 5);
+            defener.GetComponent<Rigidbody2D>().velocity = new Vector2(-hitDirection * hitterVelocityX, hitterVelocityY + 5);
             defener.GetComponent<Animator>().SetTrigger("Hurt");
         }
 
