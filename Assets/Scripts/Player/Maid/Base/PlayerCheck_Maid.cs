@@ -61,7 +61,7 @@ public class PlayerCheck_Maid : MonoBehaviour
                 //执行冲刺功能
                 maidDash.ReadyToDash();
                 //冲刺消耗蓝量
-                maid.maidStats.TakeMagic(maid.maidStats, maidDash.dashLossMagic);
+                maid.maidStats.TakeDashMagicLoss(maid.maidStats, maidDash.dashLossMagic);
             }
         }
     }

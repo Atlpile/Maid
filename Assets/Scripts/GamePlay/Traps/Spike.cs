@@ -16,7 +16,7 @@ public class Spike : MonoBehaviour
         //FIXME：Player在Trap的2/5和4/5处受伤两次
         if (other.CompareTag("Player"))
         {
-            GameManager.Instance.maidStats.TakeDamage(spikeStats, other.GetComponent<CharacterStats>());
+            GameManager.Instance.maidStats.TakePlayerDamage(spikeStats, other.GetComponent<CharacterStats>());
         }
 
         //TODO:若Enemy在范围内，则直接死亡

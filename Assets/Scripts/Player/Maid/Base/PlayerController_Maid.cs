@@ -140,7 +140,7 @@ public class PlayerController_Maid : MonoBehaviour
 
         if (isGround || isPlatform)
         {
-            jumpCount = maidStats.playerJumpCount;                                                                  //设置可跳跃的次数
+            jumpCount = maidStats.PlayerJumpCount;                                                                  //设置可跳跃的次数
             isJump = false;
             isFall = false;
         }

@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 909520857}
   - component: {fileID: 1477247203}
   - component: {fileID: 3394142130250178789}
+  - component: {fileID: 986633965}
   m_Layer: 8
   m_Name: Maid
   m_TagString: Player
@@ -281,7 +282,7 @@ MonoBehaviour:
   coll: {fileID: 0}
   anim: {fileID: 0}
   currentSpeed: 0
-  horizontalMove: 0
+  playerHorizontalMove: 0
   jumpForce: 25
   jumpCount: 0
   jumpPressed: 0
@@ -363,12 +364,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18143b9e0cdc154a90c91a34a3b667a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashLossMagic: 10
   dashSpeed: 50
   dashTime: 0.3
-  dashCoolDown: 0.5
   dashTimeLeft: 0
+  dashLossMagic: 10
+  dashCoolDown: 0.5
   lastDash: -10
+--- !u!114 &986633965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578117430883963153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12859a13d681c334d990e0a194cc476f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletType: 0
+  smallBullet: {fileID: 8372213862553171191, guid: ec1e9d82721d1394088c18848c668b61, type: 3}
+  middleBullet: {fileID: 0}
+  firePoint: {fileID: 7075616673166255179}
+  crouchAttackPosition: {x: 0, y: -2, z: 0}
 --- !u!1 &3578117432071067803
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +659,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7075616673166255179}
-  - component: {fileID: 7075616673166255178}
   m_Layer: 0
   m_Name: Maid Fire Point
   m_TagString: Untagged
@@ -663,17 +680,3 @@ Transform:
   m_Father: {fileID: 3578117430883963156}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7075616673166255178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7075616673166255176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12859a13d681c334d990e0a194cc476f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smallBullet: {fileID: 8372213862553171191, guid: ec1e9d82721d1394088c18848c668b61, type: 3}
-  crouchAttackPosition: {x: 0, y: -2, z: 0}

@@ -13,7 +13,7 @@ public class HitArea : MonoBehaviour
             var targetStats = other.GetComponent<CharacterStats>();
             var characterStats = GetComponentInParent<CharacterStats>();
 
-            targetStats.TakeDamage(characterStats, targetStats);
+            targetStats.TakePlayerDamage(characterStats, targetStats);
         }
     }
 }

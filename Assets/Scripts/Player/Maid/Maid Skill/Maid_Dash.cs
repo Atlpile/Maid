@@ -7,16 +7,21 @@ public class Maid_Dash : MonoBehaviour
     private PlayerController_Maid maid;
 
     [Header("Dash参数")]
+    [SerializeField] private float dashSpeed;                   //Dash的速度
+    [SerializeField] private float dashTime;                    //Dash的时长
+    [SerializeField] private float dashTimeLeft;                //Dash的剩余时间
     public int dashLossMagic = 10;
-    public float dashSpeed;                 //Dash的速度
-    public float dashTime;                  //Dash的时长
-    public float dashCoolDown;              //Dash的CD时间
-    public float dashTimeLeft;             //Dash的剩余时间
-    public float lastDash = -10f;          //上一次使用冲刺的时间点（使用负值，保证能在游戏的一开始时就能执行冲刺功能）
+    public float dashCoolDown;                                  //Dash的CD时间
+    public float lastDash = -10f;                               //上一次使用冲刺的时间点（使用负值，保证能在游戏的一开始时就能执行冲刺功能）
 
     private void Awake()
     {
         maid = GetComponent<PlayerController_Maid>();
+    }
+
+    private void Start()
+    {
+
     }
 
     public void ReadyToDash()

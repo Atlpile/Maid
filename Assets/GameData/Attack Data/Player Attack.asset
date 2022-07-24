@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51b8473402e65f46ac077c36302ceef, type: 3}
   m_Name: Player Attack
   m_EditorClassIdentifier: 
+  smallBulletDamage: 10
+  middleBulletDamage: 50
+  smallBulletMagicLoss: 5
+  middleBulletMagicLoss: 10
   damage: 10
   attackArea: 0

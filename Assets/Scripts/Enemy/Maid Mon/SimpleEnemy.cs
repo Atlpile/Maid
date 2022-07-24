@@ -243,6 +243,29 @@ public class SimpleEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(attackCheck.position, attackCheckRadius);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("SmallBullet"))
+        {
+            AudioManager.Instance.EnemyHurtAudio();
+
+            var maidStats = GameManager.Instance.maidStats;
+            mon1Stats.TakeEnemySmallBulletDamage(maidStats, mon1Stats);
+
+            Destroy(other.gameObject);
+        }
+
+        if (other.CompareTag("MiddleBullet"))
+        {
+            AudioManager.Instance.EnemyHurtAudio();
+
+            var maidStats = GameManager.Instance.maidStats;
+            mon1Stats.TakeEnemyMiddleBulletDamage(maidStats, mon1Stats);
+
+            Destroy(other.gameObject);
+        }
+    }
+
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

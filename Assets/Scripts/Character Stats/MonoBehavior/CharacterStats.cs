@@ -23,7 +23,7 @@ public class CharacterStats : MonoBehaviour
             attackData = Instantiate(templateAttackData);
     }
 
-    #region 可从Data_SO中读取的属性
+    #region 可从Data_SO中读取的角色属性
 
     public int MaxHealth
     {
@@ -55,6 +55,25 @@ public class CharacterStats : MonoBehaviour
         get { if (characterData != null) return characterData.currentDefence; else return 0; }
         set { characterData.currentDefence = value; }
     }
+    public float OriginSpeed
+    {
+        get { if (characterData != null) return characterData.originSpeed; else return 0; }
+        set { characterData.originSpeed = value; }
+    }
+    public float CurrentSpeed
+    {
+        get { if (characterData != null) return characterData.currentSpeed; else return 0; }
+        set { characterData.currentSpeed = value; }
+    }
+    public int PlayerJumpCount
+    {
+        get { if (characterData != null) return characterData.playerJumpCount; else return 0; }
+        set { characterData.playerJumpCount = value; }
+    }
+
+    #endregion
+
+    #region 可从SO中读取的攻击属性
 
     public int Damage
     {
@@ -66,21 +85,15 @@ public class CharacterStats : MonoBehaviour
         get { if (attackData != null) return attackData.attackArea; else return 0; }
         set { attackData.attackArea = value; }
     }
-
-    public float OriginSpeed
+    public int SmallBulletDamage
     {
-        get { if (characterData != null) return characterData.originSpeed; else return 0; }
-        set { characterData.originSpeed = value; }
+        get { if (attackData != null) return attackData.smallBulletDamage; else return 0; }
+        set { attackData.smallBulletDamage = value; }
     }
-    public float CurrentSpeed
+    public int MiddleBulletDamage
     {
-        get { if (characterData != null) return characterData.currentSpeed; else return 0; }
-        set { characterData.currentSpeed = value; }
-    }
-    public int playerJumpCount
-    {
-        get { if (characterData != null) return characterData.playerJumpCount; else return 0; }
-        set { characterData.playerJumpCount = value; }
+        get { if (attackData != null) return attackData.middleBulletDamage; else return 0; }
+        set { attackData.middleBulletDamage = value; }
     }
 
     #endregion
@@ -88,14 +101,14 @@ public class CharacterStats : MonoBehaviour
     #region 角色战斗的数值计算
 
     //角色受伤数值计算 && 角色受伤效果
-    public void TakeDamage(CharacterStats attacker, CharacterStats defener)
+    public void TakePlayerDamage(CharacterStats attacker, CharacterStats defener)
     {
         //———————————————————————————————受伤/血量数值计算———————————————————————————————————————————
 
         int damage = Mathf.Max(attacker.attackData.damage - defener.CurrentDefence, 0);
         CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
 
-        //———————————————————————————————Character受伤物理/动画反馈———————————————————————————————————————————
+        //———————————————————————————————Player受伤物理效果———————————————————————————————————————————
 
         //获取character的受伤方向
         var attackerRot = attacker.transform.rotation.y + 0.5f;
@@ -105,24 +118,25 @@ public class CharacterStats : MonoBehaviour
         var hitDirection = Mathf.Sign(attackerRot);
         var trapHitDirection = Mathf.Sign(defenerRot);
 
+        //———————————————————————————————受击目标判断———————————————————————————————————————————
 
-        if (defener.CompareTag("Enemy"))
-        {
-            //为受伤方向添加速度（力）     
-            defener.GetComponent<Rigidbody2D>().velocity = new Vector2(hitDirection * hitterVelocityX, hitterVelocityY);
+        // if (defener.CompareTag("Enemy"))
+        // {
+        //     //为受伤方向添加速度（力）     
+        //     defener.GetComponent<Rigidbody2D>().velocity = new Vector2(-hitDirection * hitterVelocityX, hitterVelocityY);
 
-            //若defener为Enemy，则播放一次Hurt动画【目前Enemy动画中没有Hurt动画】
-            // if (defener.CompareTag("Enemy"))
-            //     defener.GetComponent<Animator>().Play("Dead");
-        }
+        //     //若defener为Enemy，则播放一次Hurt动画【目前Enemy动画中没有Hurt动画】
+        //     // if (defener.CompareTag("Enemy"))
+        //     //     defener.GetComponent<Animator>().Play("Dead");
+        // }
 
-        if (defener.CompareTag("Player") && attacker.CompareTag("Enemy"))
+        if (attacker.CompareTag("Enemy") && defener.CompareTag("Player"))
         {
             defener.GetComponent<Rigidbody2D>().velocity = new Vector2(-hitDirection * hitterVelocityX, hitterVelocityY + 5);
             defener.GetComponent<Animator>().SetTrigger("Hurt");
         }
 
-        if (defener.CompareTag("Player") && attacker.CompareTag("Trap"))
+        if (attacker.CompareTag("Trap") && defener.CompareTag("Player"))
         {
             defener.GetComponent<Rigidbody2D>().velocity = new Vector2(-trapHitDirection * hitterVelocityX, hitterVelocityY + 5);
             defener.GetComponent<Animator>().SetTrigger("Hurt");
@@ -131,23 +145,55 @@ public class CharacterStats : MonoBehaviour
     }
 
     /// <summary>
-    /// Player攻击消耗蓝量的数值计算
+    /// SmallBullet造成的伤害数值计算
     /// </summary>
-    /// <param name="playerMagic">Player蓝量</param>
-    /// <param name="bulletMagicDamage">攻击消耗的蓝量</param>
-    public void TakeMagic(CharacterStats playerMagic, CharacterStats bulletMagicDamage)
+    /// <param name="attacker">Player</param>
+    /// <param name="defener">Enemy</param>
+    public void TakeEnemySmallBulletDamage(CharacterStats attacker, CharacterStats defener)
     {
-        CurrentMagic = Mathf.Max(CurrentMagic - bulletMagicDamage.attackData.magicDamage, 0);
+        int damage = Mathf.Max(attacker.attackData.smallBulletDamage - defener.CurrentDefence, 0);
+        CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
     }
 
     /// <summary>
-    /// PlayerDash消耗蓝量的数值计算
+    /// MiddleBullet造成的伤害数值计算
+    /// </summary>
+    /// <param name="attacker">Player</param>
+    /// <param name="defener">Enemy</param>
+    public void TakeEnemyMiddleBulletDamage(CharacterStats attacker, CharacterStats defener)
+    {
+        int damage = Mathf.Max(attacker.attackData.middleBulletDamage - defener.CurrentDefence, 0);
+        CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
+    }
+
+    /// <summary>
+    /// SmallBullet消耗蓝量的数值计算
     /// </summary>
     /// <param name="playerMagic">Player蓝量</param>
-    /// <param name="dashMagicDamage">Dash消耗的蓝量</param>
-    public void TakeMagic(CharacterStats playerMagic, int dashMagicDamage)
+    /// <param name="bulletMagicLoss">攻击消耗的蓝量</param>
+    public void TakeSmallBulletMagicLoss(CharacterStats playerMagic, CharacterStats bulletMagicLoss)
     {
-        CurrentMagic = Mathf.Max(CurrentMagic - dashMagicDamage, 0);
+        CurrentMagic = Mathf.Max(CurrentMagic - bulletMagicLoss.attackData.smallBulletMagicLoss, 0);
+    }
+
+    /// <summary>
+    /// MiddleBullet消耗蓝量的数值计算
+    /// </summary>
+    /// <param name="playerMagic"></param>
+    /// <param name="bulletMagicLoss"></param>
+    public void TakeMiddleBulletMagicLoss(CharacterStats playerMagic, CharacterStats bulletMagicLoss)
+    {
+        CurrentMagic = Mathf.Max(CurrentMagic - bulletMagicLoss.attackData.middleBulletMagicLoss, 0);
+    }
+
+    /// <summary>
+    /// Dash消耗蓝量的数值计算
+    /// </summary>
+    /// <param name="playerMagic">Player蓝量</param>
+    /// <param name="dashMagicLoss">Dash消耗的蓝量</param>
+    public void TakeDashMagicLoss(CharacterStats playerMagic, int dashMagicLoss)
+    {
+        CurrentMagic = Mathf.Max(CurrentMagic - dashMagicLoss, 0);
     }
 
     /// <summary>

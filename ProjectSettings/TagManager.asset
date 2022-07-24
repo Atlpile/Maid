@@ -13,6 +13,8 @@ TagManager:
   - CoinBag
   - Ground Check
   - Block Check
+  - SmallBullet
+  - MiddleBullet
   layers:
   - Default
   - TransparentFX

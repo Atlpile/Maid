@@ -600,7 +600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419493764}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Block Check
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
@@ -628,6 +628,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 986633965, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: middleBullet
+      value: 
+      objectReference: {fileID: 2560321934811210817, guid: 7cc6950da1e538a448e74fbb37769e30, type: 3}
+    - target: {fileID: 986633965, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: middleBulletTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578117430883963152, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: templateAttackData
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ba064dfc9f93344afafb62e9f8a4b3, type: 2}
     - target: {fileID: 3578117432071067800, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1301,7 +1313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395906394071369117}
   - component: {fileID: 395906394071369116}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 395906394340717103}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Attack Check
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8372213862553171190}
   m_Layer: 9
   m_Name: Small Bullet
-  m_TagString: Untagged
+  m_TagString: SmallBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8749018554401357832, guid: d19d0cdff8bd1b0488b942a1f9ed1c8b, type: 3}
+  m_Sprite: {fileID: -157522037630690669, guid: 00bcff604837c914ba1916025c2bb04d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.64, y: 2.09}
+  m_Size: {x: 0.9, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -140,18 +140,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2896273, y: 0.019007146}
+  m_Offset: {x: 0.36972618, y: 0.019007146}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 1, y: 0.4857143}
-    oldSize: {x: 0.68, y: 0.35}
-    newSize: {x: 1.64, y: 2.09}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9, y: 0.4}
+    newSize: {x: 0.9, y: 0.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.56558657, y: 0.27342486}
+  m_Size: {x: 0.15720749, y: 0.27342486}
   m_EdgeRadius: 0
 --- !u!114 &8372213862553171190
 MonoBehaviour:
@@ -165,6 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd66cc45441d144589ba2ccbdaa61a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  smallBulletSpeed: 20
   destroyDistance: 300
   isDestroyed: 0
