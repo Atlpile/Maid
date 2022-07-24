@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   currentHealth: 30
-  maxMagic: 0
-  currentMagic: 0
   maxDefence: 0
   currentDefence: 0
-  playerOriginSpeed: 0
-  playerCurrentSpeed: 0
+  originSpeed: 0
+  currentSpeed: 0
   playerJumpCount: 0
+  maxMagic: 0
+  currentMagic: 0
+  patrolSpeed: 5
+  chasePseed: 7

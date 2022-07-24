@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51b8473402e65f46ac077c36302ceef, type: 3}
   m_Name: Mon2 Attack
   m_EditorClassIdentifier: 
+  smallBulletDamage: 0
+  middleBulletDamage: 0
+  smallBulletMagicLoss: 0
+  middleBulletMagicLoss: 0
   damage: 10
-  magicDamage: 0
-  attackArea: 1
+  attackArea: 0

@@ -13,7 +13,7 @@ public class SimpleEnemy : MonoBehaviour
     private Collider2D coll;
     private Rigidbody2D rb;
 
-    [Header("Enemy类型设置")]
+    [Header("Enemy Type")]
     public E_SimpleEnemyType enemyTypes;
     [SerializeField] private bool isGuard;
 
@@ -30,7 +30,7 @@ public class SimpleEnemy : MonoBehaviour
     [SerializeField] private bool isPatrol;
     [SerializeField] private bool isChasing;
     [SerializeField] private bool findPlayer;
-    [SerializeField] private bool canAttack;
+    [SerializeField] protected bool canAttack;
     [SerializeField] private bool isGround;
     [SerializeField] private bool isFrontBlock;
     [SerializeField] private bool isDead;
@@ -43,12 +43,21 @@ public class SimpleEnemy : MonoBehaviour
     [Header("Enemy Check")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform blockCheck;
-    [SerializeField] private Transform attackCheck;
+    [SerializeField] protected Transform attackCheck;
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private LayerMask playerLayer;
+    [SerializeField] protected LayerMask playerLayer;
     [SerializeField] private float groundCheckRadius;
     [SerializeField] private float blockCheckRadius;
-    [SerializeField] private float attackCheckRadius;
+    [SerializeField] protected float attackCheckRadius;
+
+    [Header("Enemy Patrol")]
+    [SerializeField] protected Transform patrolArea;
+    [SerializeField] protected float flyPatrolRange;
+    [SerializeField] private Vector2 flyPatrolPoint;
+
+    [Header("Enemy Guard")]
+    [SerializeField] private Vector2 guardPoint;
+
 
     [Header("攻击设置")]
     [SerializeField] private float starttimeBetweenAttacks;		//开始攻击间隔时间
@@ -74,6 +83,9 @@ public class SimpleEnemy : MonoBehaviour
         monCurrentSpeed = mon1Stats.PatrolSpeed;
         monPatrolSpeed = mon1Stats.PatrolSpeed;
         monChaseSpeed = mon1Stats.ChaseSpeed;
+
+        flyPatrolPoint = transform.position;
+        guardPoint = transform.position;
     }
 
     private void Update()
@@ -105,15 +117,19 @@ public class SimpleEnemy : MonoBehaviour
         switch (enemyTypes)
         {
             case E_SimpleEnemyType.Ground:
-                if (findPlayer == true && isGround) { EnemyChase(); return; }
+                if (findPlayer == true && isGround) { GroundChase(); return; }
 
-                if (isGuard == false) EnemyPatrol();
+                if (isGuard == false) GroundPatrol();
                 else if (isGuard == true) EnemyGuard();
 
                 // else if (canAttack == true) EnemyAttack();
 
                 break;
             case E_SimpleEnemyType.Fly:
+
+                if (isGuard == false) FlyPatrol();
+                else if (isGuard == true) EnemyGuard();
+
                 break;
         }
     }
@@ -141,7 +157,7 @@ public class SimpleEnemy : MonoBehaviour
     //         return true;
     // }
 
-    private void EnemyPatrol()
+    private void GroundPatrol()
     {
         SwitchDirection();
 
@@ -161,6 +177,30 @@ public class SimpleEnemy : MonoBehaviour
         rb.velocity = new Vector2(enemyHorizontalMove * monCurrentSpeed, rb.velocity.y);
     }
 
+    private void FlyPatrol()
+    {
+        //到达目标点后随机获取新的巡逻点
+        if (Vector2.Distance(transform.position, flyPatrolPoint) < 0.1f)
+            GetNewWayPoint();
+
+        if (transform.position.x < flyPatrolPoint.x)
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);                      //向右翻转
+        else
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);                    //向左翻转
+
+        transform.position = Vector2.MoveTowards(transform.position, flyPatrolPoint, monPatrolSpeed * Time.deltaTime);
+    }
+
+    private void GetNewWayPoint()
+    {
+        float randomX = UnityEngine.Random.Range(-flyPatrolRange, flyPatrolRange);
+        float randomY = UnityEngine.Random.Range(-flyPatrolRange, flyPatrolRange);
+
+        Vector3 randomPoint = new Vector2(guardPoint.x + randomX, guardPoint.y + randomY);
+
+        flyPatrolPoint = randomPoint;
+    }
+
     private void EnemyGuard()
     {
         mon1Stats.CurrentSpeed = 0;
@@ -169,7 +209,7 @@ public class SimpleEnemy : MonoBehaviour
         //TODO:若不在守卫点，则回到守卫点
     }
 
-    private void EnemyChase()
+    private void GroundChase()
     {
         playerDistanceX = Vector3.Distance(player.position, transform.position);
         // playerDistanceY = player.transform.position.y - transform.position.y;
@@ -226,6 +266,17 @@ public class SimpleEnemy : MonoBehaviour
 
     }
 
+    private void FlyChase()
+    {
+        //若Player在自身的右侧，则朝向Player
+        if (transform.position.x < player.transform.position.x)
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+        else
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+
+        transform.position = Vector2.MoveTowards(transform.position, player.position, monCurrentSpeed * Time.deltaTime);
+    }
+
     public bool RightMove(Transform playerTransfrom)
     {
         //若Player在自身的右侧，则向右移动为真
@@ -236,7 +287,6 @@ public class SimpleEnemy : MonoBehaviour
         else
             return false;
     }
-
 
 
     #endregion
@@ -271,14 +321,14 @@ public class SimpleEnemy : MonoBehaviour
 
     #region Enemy检测
 
-    private void EnemyCheck()
+    protected virtual void EnemyCheck()
     {
         isGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         isFrontBlock = Physics2D.OverlapCircle(blockCheck.position, blockCheckRadius, groundLayer);
         canAttack = Physics2D.OverlapCircle(attackCheck.position, attackCheckRadius, playerLayer);
     }
 
-    private void OnDrawGizmos()
+    protected virtual void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         Gizmos.DrawWireSphere(blockCheck.position, blockCheckRadius);
