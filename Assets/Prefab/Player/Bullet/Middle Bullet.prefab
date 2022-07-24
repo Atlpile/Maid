@@ -165,6 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd66cc45441d144589ba2ccbdaa61a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallBulletSpeed: 20
-  destroyDistance: 300
+  BulletSpeed: 30
+  destroyDistance: 500
   isDestroyed: 0

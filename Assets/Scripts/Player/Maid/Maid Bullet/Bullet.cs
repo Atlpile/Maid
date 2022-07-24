@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     private Vector3 bulletStartPos;
 
     [Header("Bullet参数")]
-    public float smallBulletSpeed;
+    public float BulletSpeed;
     public float destroyDistance;
 
     [Header("子弹状态判断")]
@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-        m_rigidbody2D.velocity = transform.right * smallBulletSpeed;
+        m_rigidbody2D.velocity = transform.right * BulletSpeed;
         bulletStartPos = transform.position;
     }
 
@@ -35,22 +35,8 @@ public class Bullet : MonoBehaviour
             //播放销毁动画，并销毁Bullet
             PlayDestoryBulletAnim();
         }
-    }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        // if (other.CompareTag("Enemy"))
-        // {
-        //     //播放Enemy受击音效
-        //     AudioManager.Instance.EnemyHurtAudio();
-
-        //     var targetStats = other.GetComponent<CharacterStats>();
-        //     var bulletStats = GameManager.Instance.maidStats;
-        //     targetStats.TakeDamage(bulletStats, targetStats);
-
-        //     // PlayDestoryBulletAnim();
-        //     DestroyBullet();
-        // }
+        //TODO:当子弹碰到屏幕边界时，销毁Bullet
     }
 
     private void PlayDestoryBulletAnim()

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class SimpleEnemy : MonoBehaviour
 {
+
+    #region Enemy参数
+
+    [Header("Reference")]
     private CharacterStats mon1Stats;
     private Animator anim;
     private Collider2D coll;
@@ -11,40 +15,49 @@ public class SimpleEnemy : MonoBehaviour
 
     [Header("Enemy类型设置")]
     public E_SimpleEnemyType enemyTypes;
-    public bool isGuard;
+    [SerializeField] private bool isGuard;
 
     [Header("移动朝向")]
-    private float monCurrentSpeed;
+    [SerializeField] private float monCurrentSpeed;
+    private float monPatrolSpeed;
+    private float monChaseSpeed;
     private int enemyHorizontalMove;
-    public bool facingRight = true;
+    [SerializeField] private bool facingRight = true;
+    [SerializeField] private Transform leftPoint;
+    [SerializeField] private Transform rightPoint;
 
     [Header("Enemy状态")]
-    public bool isPatrol;
-    public bool isChasing;
-    public bool findPlayer;
-    public bool canAttack;
-    public bool isGround;
-    public bool isFrontBlock;
+    [SerializeField] private bool isPatrol;
+    [SerializeField] private bool isChasing;
+    [SerializeField] private bool findPlayer;
+    [SerializeField] private bool canAttack;
+    [SerializeField] private bool isGround;
+    [SerializeField] private bool isFrontBlock;
+    [SerializeField] private bool isDead;
 
     [Header("Player Check")]
-    public Transform player;
-    public float playerDistanceX;
-    public float playerDistanceY;
+    [SerializeField] private Transform player;
+    [SerializeField] private float playerDistanceX;
+    [SerializeField] private float playerDistanceY;
 
-    [Header("Check")]
-    public Transform groundCheck;
-    public Transform blockCheck;
-    public Transform attackCheck;
-    public LayerMask groundLayer;
-    public LayerMask playerLayer;
-    public float groundCheckRadius;
-    public float blockCheckRadius;
-    public float attackCheckRadius;
-
+    [Header("Enemy Check")]
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private Transform blockCheck;
+    [SerializeField] private Transform attackCheck;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private float groundCheckRadius;
+    [SerializeField] private float blockCheckRadius;
+    [SerializeField] private float attackCheckRadius;
 
     [Header("攻击设置")]
     [SerializeField] private float starttimeBetweenAttacks;		//开始攻击间隔时间
-    [SerializeField] private float timeBetweenAttacks;			//攻击间隔时间
+    [SerializeField] private float timeBetweenAttacks;          //攻击间隔时间
+
+    #endregion
+
+
+    #region 调用区域
 
     private void Awake()
     {
@@ -58,9 +71,9 @@ public class SimpleEnemy : MonoBehaviour
 
     private void Start()
     {
-        monCurrentSpeed = mon1Stats.CurrentSpeed;
-        // timeBetweenAttacks = starttimeBetweenAttacks;
-
+        monCurrentSpeed = mon1Stats.PatrolSpeed;
+        monPatrolSpeed = mon1Stats.PatrolSpeed;
+        monChaseSpeed = mon1Stats.ChaseSpeed;
     }
 
     private void Update()
@@ -70,12 +83,23 @@ public class SimpleEnemy : MonoBehaviour
 
     private void FixedUpdate()
     {
+        isDead = mon1Stats.CurrentHealth == 0;
+        if (isDead)
+        {
+            anim.Play("Dead");
+            coll.enabled = false;
+            rb.bodyType = RigidbodyType2D.Static;
+            return;
+        }
+
         EnemyCheck();
 
         SimpleEnemyState();
-
     }
 
+    /// <summary>
+    /// Enemy简单移动状态切换
+    /// </summary>
     private void SimpleEnemyState()
     {
         switch (enemyTypes)
@@ -94,7 +118,28 @@ public class SimpleEnemy : MonoBehaviour
         }
     }
 
+    #endregion
+
+
     #region Enemy基本功能
+
+    private void SwitchDirection()
+    {
+        if (isFrontBlock)
+        {
+            rb.velocity = new Vector2(0, 0);
+            facingRight = !facingRight;
+        }
+    }
+
+    // private bool OutPatrolRange()
+    // {
+    //     //若Enemy在A点和B点范围内，则返回false，否则返回true
+    //     if (transform.position.x > leftPoint.position.x && transform.position.x < rightPoint.position.x)
+    //         return false;
+    //     else
+    //         return true;
+    // }
 
     private void EnemyPatrol()
     {
@@ -112,6 +157,7 @@ public class SimpleEnemy : MonoBehaviour
         }
 
         anim.Play("Run");
+        monCurrentSpeed = monPatrolSpeed;
         rb.velocity = new Vector2(enemyHorizontalMove * monCurrentSpeed, rb.velocity.y);
     }
 
@@ -153,6 +199,8 @@ public class SimpleEnemy : MonoBehaviour
         //若Player不在攻击范围内，则向Player移动
         else if (playerDistanceX > 3)
         {
+            monCurrentSpeed = monChaseSpeed;
+
             if (RightMove(player))
             {
                 // Debug.Log("向右移动");
@@ -189,17 +237,10 @@ public class SimpleEnemy : MonoBehaviour
             return false;
     }
 
-    private void SwitchDirection()
-    {
-        if (!isGround || isFrontBlock)
-        {
-            rb.velocity = new Vector2(0, 0);
-            facingRight = !facingRight;
-        }
 
-    }
 
     #endregion
+
 
     #region Enemy攻击功能
 
@@ -226,6 +267,7 @@ public class SimpleEnemy : MonoBehaviour
     }
 
     #endregion
+
 
     #region Enemy检测
 
@@ -283,4 +325,5 @@ public class SimpleEnemy : MonoBehaviour
     }
 
     #endregion
+
 }

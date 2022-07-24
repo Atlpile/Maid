@@ -35,16 +35,6 @@ public class CharacterStats : MonoBehaviour
         get { if (characterData != null) return characterData.currentHealth; else return 0; }
         set { characterData.currentHealth = value; }
     }
-    public int MaxMagic
-    {
-        get { if (characterData != null) return characterData.maxMagic; else return 0; }
-        set { characterData.maxMagic = value; }
-    }
-    public int CurrentMagic
-    {
-        get { if (characterData != null) return characterData.currentMagic; else return 0; }
-        set { characterData.currentMagic = value; }
-    }
     public int MaxDefence
     {
         get { if (characterData != null) return characterData.maxDefence; else return 0; }
@@ -55,6 +45,8 @@ public class CharacterStats : MonoBehaviour
         get { if (characterData != null) return characterData.currentDefence; else return 0; }
         set { characterData.currentDefence = value; }
     }
+
+
     public float OriginSpeed
     {
         get { if (characterData != null) return characterData.originSpeed; else return 0; }
@@ -69,6 +61,28 @@ public class CharacterStats : MonoBehaviour
     {
         get { if (characterData != null) return characterData.playerJumpCount; else return 0; }
         set { characterData.playerJumpCount = value; }
+    }
+    public int MaxMagic
+    {
+        get { if (characterData != null) return characterData.maxMagic; else return 0; }
+        set { characterData.maxMagic = value; }
+    }
+    public int CurrentMagic
+    {
+        get { if (characterData != null) return characterData.currentMagic; else return 0; }
+        set { characterData.currentMagic = value; }
+    }
+
+
+    public float PatrolSpeed
+    {
+        get { if (characterData != null) return characterData.patrolSpeed; else return 0; }
+        set { characterData.patrolSpeed = value; }
+    }
+    public float ChaseSpeed
+    {
+        get { if (characterData != null) return characterData.chasePseed; else return 0; }
+        set { characterData.chasePseed = value; }
     }
 
     #endregion

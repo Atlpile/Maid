@@ -116,7 +116,6 @@ public class Enemy_FSM : MonoBehaviour
         ep.isDead = characterStats.CurrentHealth == 0;
         if (ep.isDead)
         {
-
             anim.Play("Dead");
             //【Bug修复】修复Enemy播放死亡动画后仍可以继续攻击
             gameObject.tag = "Untagged";

@@ -310,7 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   templateCharacterData: {fileID: 11400000, guid: 669baa3b894e6944dadf5a18c0544978, type: 2}
   characterData: {fileID: 0}
-  templateAttackData: {fileID: 11400000, guid: 4dce386c39cd9a14bbd7bf2285cbb899, type: 2}
+  templateAttackData: {fileID: 11400000, guid: 49ba064dfc9f93344afafb62e9f8a4b3, type: 2}
   attackData: {fileID: 0}
   hitterVelocityX: 15
   hitterVelocityY: 10
@@ -382,9 +382,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12859a13d681c334d990e0a194cc476f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletType: 0
   smallBullet: {fileID: 8372213862553171191, guid: ec1e9d82721d1394088c18848c668b61, type: 3}
-  middleBullet: {fileID: 0}
+  middleBullet: {fileID: 2560321934811210817, guid: 7cc6950da1e538a448e74fbb37769e30, type: 3}
+  middleBulletTime: 1
+  currentTime: 0
   firePoint: {fileID: 7075616673166255179}
   crouchAttackPosition: {x: 0, y: -2, z: 0}
 --- !u!1 &3578117432071067803
