@@ -62,8 +62,8 @@ public class PlayerController_Maid : MonoBehaviour
     void Start()
     {
         //TODO:注册和添加事件，都应放在OnEnable中
-        GameManager.Instance.RegisterPlayer(maidStats);
-        GameManager.Instance.RegisterPlayer(this);
+        GameManager.Instance.RegisterPlayerCharacterStats(maidStats);
+        GameManager.Instance.RegisterPlayerController(this);
 
         //加载场景时获取Player保存的位置
         SaveManager.Instance.LoadPlayerPositionData("PlayerPoX", "PlayerPoY");

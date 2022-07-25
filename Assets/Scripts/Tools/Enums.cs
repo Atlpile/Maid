@@ -32,4 +32,6 @@ public enum E_SimpleEnemyType { Ground, Fly, Static }
 
 public enum E_BulletType { SmallBullet, MiddleBullet, Ray }
 
+public enum E_MonBulletType { Buller3, Bullet4 }
+
 

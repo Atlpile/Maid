@@ -16,6 +16,7 @@ TagManager:
   - SmallBullet
   - MiddleBullet
   - PlayerPoint
+  - Mon4_Bullet
   layers:
   - Default
   - TransparentFX

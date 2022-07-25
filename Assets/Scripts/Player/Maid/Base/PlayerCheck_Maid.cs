@@ -96,4 +96,14 @@ public class PlayerCheck_Maid : MonoBehaviour
     {
         Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Mon4_Bullet"))
+        {
+            maid.maidStats.TakePlayerDamage(GameManager.Instance.mon4Stats, maid.maidStats);
+            Destroy(other.gameObject);
+        }
+    }
+
 }

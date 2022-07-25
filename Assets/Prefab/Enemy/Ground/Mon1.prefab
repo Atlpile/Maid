@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66990475537690474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.67, y: 0.76, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 66990475817566513}
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.958926, y: 0.95716405}
+  m_Offset: {x: -3.9472384, y: 0.78569245}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -115,7 +115,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.925779, y: 1.6647058}
+  m_Size: {x: 13.949155, y: 4.065323}
   m_EdgeRadius: 0
 --- !u!1 &66990475817566518
 GameObject:
@@ -308,11 +308,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyTypes: 0
   isGuard: 0
+  isPatrol: 1
   monCurrentSpeed: 0
   facingRight: 1
   leftPoint: {fileID: 401794255504430871}
   rightPoint: {fileID: 401794255811442005}
-  isPatrol: 0
+  isPatroling: 0
   isChasing: 0
   findPlayer: 0
   canAttack: 0
@@ -320,6 +321,7 @@ MonoBehaviour:
   isFrontBlock: 0
   isDead: 0
   player: {fileID: 0}
+  playerPoint: {fileID: 0}
   playerDistanceX: 0
   playerDistanceY: 0
   groundCheck: {fileID: 66990475757573588}
@@ -333,8 +335,14 @@ MonoBehaviour:
     m_Bits: 256
   groundCheckRadius: 0.2
   blockCheckRadius: 0.5
-  attackCheckRadius: 1
-  starttimeBetweenAttacks: 1
+  attackCheckRadius: 2.5
+  patrolArea: {fileID: 0}
+  flyPatrolRange: 0
+  flyPatrolPoint: {x: 0, y: 0}
+  guardPoint: {x: 0, y: 0}
+  enemyBullet: {fileID: 0}
+  firePoint: {fileID: 0}
+  starttimeBetweenAttacks: 1.5
   timeBetweenAttacks: 0
 --- !u!1 &401794255061710059
 GameObject:
@@ -504,7 +512,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.426062, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -515,7 +523,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.835809, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &6672840805702774135
 MonoBehaviour:

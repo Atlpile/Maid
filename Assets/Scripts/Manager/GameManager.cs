@@ -8,6 +8,7 @@ public class GameManager : Singleton<GameManager>
 {
     [Header("Reference")]
     [HideInInspector] public CharacterStats maidStats;
+    [HideInInspector] public CharacterStats mon4Stats;
     [HideInInspector] public PlayerController_Maid maidController;
 
     [Header("监视是否持有相应的Key")]
@@ -27,8 +28,6 @@ public class GameManager : Singleton<GameManager>
         DontDestroyOnLoad(this);
     }
 
-
-
     private void Update()
     {
         if (maidController != null)
@@ -41,7 +40,6 @@ public class GameManager : Singleton<GameManager>
         //     return;
 
     }
-
 
     private void FixedUpdate()
     {
@@ -66,13 +64,18 @@ public class GameManager : Singleton<GameManager>
 
     #region 注册
 
-    public void RegisterPlayer(CharacterStats maid)
+    public void RegisterPlayerCharacterStats(CharacterStats maid)
     {
         maidStats = maid;
     }
-    public void RegisterPlayer(PlayerController_Maid maid)
+    public void RegisterPlayerController(PlayerController_Maid maid)
     {
         maidController = maid;
+    }
+
+    public void RegisterMon4CharacterStats(CharacterStats mon4)
+    {
+        mon4Stats = mon4;
     }
 
     #endregion

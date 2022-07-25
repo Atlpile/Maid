@@ -14,4 +14,16 @@ public class Fly_Mon2 : SimpleEnemy
         Gizmos.DrawWireSphere(attackCheck.position, attackCheckRadius);
         Gizmos.DrawWireSphere(patrolArea.position, flyPatrolRange);
     }
+
+
+    //Animation Event
+    public void Mon1DeathAudio()
+    {
+        AudioManager.Instance.EnemyDeathAudio();
+    }
+
+    public void DestroyEnemy()
+    {
+        Destroy(gameObject);
+    }
 }

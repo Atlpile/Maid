@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72aca2e4aa794b4a97facb976b1e0fa, type: 3}
+  m_Name: Mon3 Data
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  currentHealth: 50
+  maxDefence: 0
+  currentDefence: 0
+  originSpeed: 0
+  currentSpeed: 0
+  playerJumpCount: 0
+  maxMagic: 0
+  currentMagic: 0
+  patrolSpeed: 0
+  chasePseed: 0

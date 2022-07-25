@@ -34,19 +34,19 @@ TextureImporter:
     second: Mon3_attack_1
   - first:
       213: -9178317291204331975
-    second: Mon_2_1024_10
+    second: Mon3_Bullet_1
   - first:
       213: -3675958976705828117
-    second: Mon_2_1024_11
+    second: Mon3_Bullet_2
   - first:
       213: 6538550377182718347
-    second: Mon_2_1024_12
+    second: Mon3_Bullet_3
   - first:
       213: 2449865812876375041
-    second: Mon_2_1024_13
+    second: Mon3_Bullet_4
   - first:
       213: -1071953135619175654
-    second: Mon_2_1024_14
+    second: Mon3_Bullet_5
   - first:
       213: -6373548203074920113
     second: Mon4_idle_1
@@ -70,13 +70,13 @@ TextureImporter:
     second: Mon4_attack_3
   - first:
       213: -2399661974433336108
-    second: Mon_2_1024_22
+    second: Mon4_Bullet_1
   - first:
       213: -3833630776998626032
-    second: Mon_2_1024_23
+    second: Mon4_Bullet_2
   - first:
       213: 2612578961425561367
-    second: Mon_2_1024_24
+    second: Mon4_Bullet_3
   - first:
       213: 6355059046296003442
     second: Mon_2_1024_25
@@ -379,15 +379,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_10
+      name: Mon3_Bullet_1
       rect:
         serializedVersion: 2
         x: 7
         y: 525
         width: 160
         height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.00625, y: 0.48387095}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,15 +400,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_11
+      name: Mon3_Bullet_2
       rect:
         serializedVersion: 2
         x: 172
         y: 526
         width: 164
         height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.0060975607, y: 0.4827586}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -421,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_12
+      name: Mon3_Bullet_3
       rect:
         serializedVersion: 2
         x: 343
@@ -442,7 +442,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_13
+      name: Mon3_Bullet_4
       rect:
         serializedVersion: 2
         x: 394
@@ -463,7 +463,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_14
+      name: Mon3_Bullet_5
       rect:
         serializedVersion: 2
         x: 5
@@ -631,7 +631,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_22
+      name: Mon4_Bullet_1
       rect:
         serializedVersion: 2
         x: 645
@@ -652,7 +652,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_23
+      name: Mon4_Bullet_2
       rect:
         serializedVersion: 2
         x: 752
@@ -673,7 +673,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mon_2_1024_24
+      name: Mon4_Bullet_3
       rect:
         serializedVersion: 2
         x: 642
