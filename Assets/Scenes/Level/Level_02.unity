@@ -689,6 +689,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 286751027, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286751027, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 286751027, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: m_TagString
+      value: PlayerPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 3578117432071067800, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -736,6 +748,18 @@ PrefabInstance:
     - target: {fileID: 3578117432071067803, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
       propertyPath: m_Name
       value: Player_Maid_version5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228033793559682295, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228033793559682295, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228033793559682295, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
+      propertyPath: m_TagString
+      value: PlayerPoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbdcb6a855522954d812f05a3845b4de, type: 3}
@@ -1798,7 +1822,7 @@ Transform:
   m_GameObject: {fileID: 4402248370126493637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4402248371676684880}
   - {fileID: 4402248370501570747}
@@ -1832,6 +1856,7 @@ MonoBehaviour:
   isFrontBlock: 0
   isDead: 0
   player: {fileID: 0}
+  playerPoint: {fileID: 0}
   playerDistanceX: 0
   playerDistanceY: 0
   groundCheck: {fileID: 0}
@@ -1850,7 +1875,7 @@ MonoBehaviour:
   flyPatrolRange: 7
   flyPatrolPoint: {x: 0, y: 0}
   guardPoint: {x: 0, y: 0}
-  starttimeBetweenAttacks: 0
+  starttimeBetweenAttacks: 1
   timeBetweenAttacks: 0
 --- !u!58 &4402248370126493692
 CircleCollider2D:
@@ -1998,8 +2023,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4402248371676684880}
   - component: {fileID: 4402248371676684882}
-  m_Layer: 0
-  m_Name: Chase Check
+  m_Layer: 11
+  m_Name: Player Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

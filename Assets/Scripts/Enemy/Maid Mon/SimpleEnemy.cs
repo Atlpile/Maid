@@ -37,6 +37,7 @@ public class SimpleEnemy : MonoBehaviour
 
     [Header("Player Check")]
     [SerializeField] private Transform player;
+    [SerializeField] private Transform playerPoint;
     [SerializeField] private float playerDistanceX;
     [SerializeField] private float playerDistanceY;
 
@@ -76,6 +77,7 @@ public class SimpleEnemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        playerPoint = GameObject.FindGameObjectWithTag("PlayerPoint").GetComponent<Transform>();
     }
 
     private void Start()
@@ -125,11 +127,16 @@ public class SimpleEnemy : MonoBehaviour
                 // else if (canAttack == true) EnemyAttack();
 
                 break;
+
             case E_SimpleEnemyType.Fly:
+                if (findPlayer == true) { FlyChase(); return; }
 
                 if (isGuard == false) FlyPatrol();
                 else if (isGuard == true) EnemyGuard();
 
+                break;
+
+            case E_SimpleEnemyType.Static:
                 break;
         }
     }
@@ -184,11 +191,12 @@ public class SimpleEnemy : MonoBehaviour
             GetNewWayPoint();
 
         if (transform.position.x < flyPatrolPoint.x)
-            transform.rotation = Quaternion.Euler(0f, 0f, 0f);                      //向右翻转
+            transform.localRotation = Quaternion.Euler(0f, 180f, 0f);                  //向右翻转
         else
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);                    //向左翻转
+            transform.localRotation = Quaternion.Euler(0f, 0f, 0f);                    //向左翻转
 
-        transform.position = Vector2.MoveTowards(transform.position, flyPatrolPoint, monPatrolSpeed * Time.deltaTime);
+        monCurrentSpeed = monPatrolSpeed;
+        transform.position = Vector2.MoveTowards(transform.position, flyPatrolPoint, monCurrentSpeed * Time.deltaTime);
     }
 
     private void GetNewWayPoint()
@@ -212,8 +220,6 @@ public class SimpleEnemy : MonoBehaviour
     private void GroundChase()
     {
         playerDistanceX = Vector3.Distance(player.position, transform.position);
-        // playerDistanceY = player.transform.position.y - transform.position.y;
-
 
         //若Player在攻击范围内，且攻击冷却已过，则朝向Player执行攻击
         if (playerDistanceX <= 3 && timeBetweenAttacks <= 0f)
@@ -268,13 +274,41 @@ public class SimpleEnemy : MonoBehaviour
 
     private void FlyChase()
     {
+        playerDistanceX = Vector3.Distance(playerPoint.position, transform.position);
+        playerDistanceY = playerPoint.transform.position.y - transform.position.y;
+
         //若Player在自身的右侧，则朝向Player
         if (transform.position.x < player.transform.position.x)
             transform.localRotation = Quaternion.Euler(0, 180, 0);
         else
             transform.localRotation = Quaternion.Euler(0, 0, 0);
 
-        transform.position = Vector2.MoveTowards(transform.position, player.position, monCurrentSpeed * Time.deltaTime);
+        if (playerDistanceX <= 2 && timeBetweenAttacks <= 0f)
+        {
+            if (canAttack)
+            {
+                Debug.Log("攻击一次");
+                anim.Play("Attack");
+
+                timeBetweenAttacks = starttimeBetweenAttacks;
+            }
+            else
+            {
+                anim.Play("Idle");
+            }
+        }
+        else if (playerDistanceX >= 2)
+        {
+            anim.Play("Idle");
+
+            monCurrentSpeed = monChaseSpeed;
+            transform.position = Vector2.MoveTowards(transform.position, playerPoint.position, monCurrentSpeed * Time.deltaTime);
+        }
+
+
+
+        timeBetweenAttacks -= Time.deltaTime;
+
     }
 
     public bool RightMove(Transform playerTransfrom)
@@ -294,27 +328,27 @@ public class SimpleEnemy : MonoBehaviour
 
     #region Enemy攻击功能
 
-    protected virtual void EnemyAttack()
-    {
-        //若计时器<=0，则播放Attack动画
-        if (timeBetweenAttacks <= 0f)
-        {
-            Debug.Log("攻击一次");
-            anim.Play("Attack");
-            timeBetweenAttacks = starttimeBetweenAttacks;
-        }
-        //若计时器>0，且Attack动画播放完成，则播放Idle动画
-        else if (timeBetweenAttacks > 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
-        {
-            timeBetweenAttacks -= Time.deltaTime;
-            anim.Play("Idle");
-        }
-    }
+    // protected virtual void EnemyAttack()
+    // {
+    //     //若计时器<=0，则播放Attack动画
+    //     if (timeBetweenAttacks <= 0f)
+    //     {
+    //         Debug.Log("攻击一次");
+    //         anim.Play("Attack");
+    //         timeBetweenAttacks = starttimeBetweenAttacks;
+    //     }
+    //     //若计时器>0，且Attack动画播放完成，则播放Idle动画
+    //     else if (timeBetweenAttacks > 0f && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+    //     {
+    //         timeBetweenAttacks -= Time.deltaTime;
+    //         anim.Play("Idle");
+    //     }
+    // }
 
-    protected virtual void EnemySkill()
-    {
+    // protected virtual void EnemySkill()
+    // {
 
-    }
+    // }
 
     #endregion
 

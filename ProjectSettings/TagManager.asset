@@ -15,6 +15,7 @@ TagManager:
   - Block Check
   - SmallBullet
   - MiddleBullet
+  - PlayerPoint
   layers:
   - Default
   - TransparentFX
