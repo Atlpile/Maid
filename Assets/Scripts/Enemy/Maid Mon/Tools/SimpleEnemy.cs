@@ -28,8 +28,8 @@ public class SimpleEnemy : MonoBehaviour
     [SerializeField] private Transform rightPoint;
 
     [Header("Enemy状态监视")]
-    [SerializeField] private bool isPatroling;
-    [SerializeField] private bool isChasing;
+    // [SerializeField] private bool isPatroling;
+    // [SerializeField] private bool isChasing;
     [SerializeField] private bool findPlayer;
     [SerializeField] protected bool canAttack;
     [SerializeField] private bool isGround;
@@ -69,7 +69,6 @@ public class SimpleEnemy : MonoBehaviour
     [SerializeField] private float timeBetweenAttacks;          //攻击间隔时间
 
     #endregion
-
 
     #region 调用区域
 
@@ -116,7 +115,7 @@ public class SimpleEnemy : MonoBehaviour
     }
 
     /// <summary>
-    /// Enemy简单移动状态切换
+    /// Enemy简单状态切换
     /// </summary>
     private void SimpleEnemyState()
     {
@@ -316,7 +315,6 @@ public class SimpleEnemy : MonoBehaviour
 
     #region Fly Enemy功能
 
-
     private void GetNewWayPoint()
     {
         float randomX = UnityEngine.Random.Range(-flyPatrolRange, flyPatrolRange);
@@ -461,7 +459,6 @@ public class SimpleEnemy : MonoBehaviour
 
     #region Static Enemy功能
 
-
     protected virtual void StaticEnemyAttack()
     {
         //若计时器<=0，则播放Attack动画，生成子弹
@@ -479,14 +476,12 @@ public class SimpleEnemy : MonoBehaviour
         }
     }
 
-
     // protected virtual void EnemySkill()
     // {
 
     // }
 
     #endregion
-
 
     #region Enemy检测
 
