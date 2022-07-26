@@ -253,14 +253,11 @@ public class SimpleEnemy : MonoBehaviour
         if (canAttack)
         {
             Debug.Log("攻击一次");
-            anim.Play("Attack");
+            anim.SetTrigger("Attack");
 
             timeBetweenAttacks = starttimeBetweenAttacks;
         }
-        else
-        {
-            anim.Play("Idle");
-        }
+
     }
 
 
